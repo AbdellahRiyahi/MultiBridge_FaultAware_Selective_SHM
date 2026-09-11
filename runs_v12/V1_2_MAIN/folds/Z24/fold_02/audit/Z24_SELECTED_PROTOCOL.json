@@ -1,0 +1,30 @@
+{
+  "panel": [
+    "R1V",
+    "R2L",
+    "R2T",
+    "R2V",
+    "R3V"
+  ],
+  "physical_sensor_ids": [
+    "R1",
+    "R2",
+    "R2",
+    "R2",
+    "R3"
+  ],
+  "axes": [
+    "V",
+    "L",
+    "T",
+    "V",
+    "V"
+  ],
+  "seconds": 20.0,
+  "band_hz": [
+    0.5,
+    25.0
+  ],
+  "welch_segment_seconds": 4.0,
+  "native_modality": "acceleration"
+}

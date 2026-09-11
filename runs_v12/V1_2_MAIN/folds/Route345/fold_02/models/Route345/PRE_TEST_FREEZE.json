@@ -1,0 +1,36 @@
+{
+  "phase": "FROZEN_BEFORE_TEST",
+  "quality_calibration_hash": "71db2b553dbcd732d8f9da73d3c8a20840e77559f930a895d8775a3aa277253c",
+  "model_sha256": {
+    "models/Route345/tabular_and_calibration.joblib": "09cde07db4ffb3b69e12815c2a4b16477de3623e819b54047e9107b5b43bd3d4",
+    "models/Route345/StandardNN.pt": "420a26659d24aa0979302bd5474fe17a7ed17cb598b66c579039dc1c82955714",
+    "models/Route345/FaultAware.pt": "8b7f4975d6c3fb7436548ca0ac54ccd004bf3ad512b29488a34e0feb53ba9541",
+    "models/Route345/FaultAware_Control.pt": "5d86706de009cc7c2cc2bee392c44151e10e05559638f305008a65f2d75d8a19",
+    "models/Route345/calibrators.json": "abe82ed36e4c29095fd41766269e64e5aa07643a1c08d0c2bb5dac681df55f90"
+  },
+  "hash": "e06c32e7b0167b7f7b890b4f6e8fbe492d7e67368b6aa88e22f866c783503d62",
+  "train_groups": [
+    "Route345/baseline_1/acceleration/test_3",
+    "Route345/baseline_2/acceleration/test_1",
+    "Route345/damage_1/acceleration/test_2",
+    "Route345/damage_1/acceleration/test_3",
+    "Route345/damage_2/acceleration/test_1",
+    "Route345/damage_2/acceleration/test_3",
+    "Route345/damage_3/acceleration/test_3",
+    "Route345/damage_4/acceleration/test_2",
+    "Route345/damage_4/acceleration/test_3",
+    "Route345/damage_5/acceleration/test_2",
+    "Route345/damage_6/acceleration/test_2"
+  ],
+  "dev_groups": [
+    "Route345/baseline_2/acceleration/test_3",
+    "Route345/damage_5/acceleration/test_1",
+    "Route345/damage_6/acceleration/test_4"
+  ],
+  "cal_groups": [
+    "Route345/baseline_1/acceleration/test_1",
+    "Route345/damage_3/acceleration/test_1",
+    "Route345/damage_6/acceleration/test_3"
+  ],
+  "selected_seconds": 20.0
+}

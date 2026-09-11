@@ -1,0 +1,22 @@
+{
+  "record_threshold": 33.965980529785156,
+  "record_calibration_unit": "one_mean_score_per_eligible_record",
+  "record_calibration_records": 95,
+  "record_nominal_cal_alert_fraction": 0.042105263157894736,
+  "daily_threshold": 17.099685668945312,
+  "daily_calibration_unit": "median_of_valid_record_scores_per_day",
+  "cal_days": [
+    "openLAB2024/day/2024-08-13",
+    "openLAB2024/day/2024-08-14",
+    "openLAB2024/day/2024-08-18",
+    "openLAB2024/day/2024-08-21",
+    "openLAB2024/day/2024-08-23",
+    "openLAB2024/day/2024-08-28",
+    "openLAB2024/day/2024-09-02",
+    "openLAB2024/day/2024-09-05"
+  ],
+  "no_damage_labels": true,
+  "quantile": 0.95,
+  "small_N_warning": true,
+  "population_alarm_guarantee": false
+}

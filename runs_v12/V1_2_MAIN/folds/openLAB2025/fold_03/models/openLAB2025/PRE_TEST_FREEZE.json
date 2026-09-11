@@ -1,0 +1,27 @@
+{
+  "phase": "FROZEN_BEFORE_TEST",
+  "quality_calibration_hash": "32507c6bb3570868a46d02e44dbbc5995c3c20e90453516bafef705419f2e0ab",
+  "model_sha256": {
+    "models/openLAB2025/tabular_and_calibration.joblib": "fc73461bfbe4f57df0a720f3fb8681139d27284eeb3f2333d2c3aa1c96186ff0",
+    "models/openLAB2025/StandardNN.pt": "0db1a0ee59e9bd3f08aaadd6f3b18160ea29257b8090b191f01270a264f81934",
+    "models/openLAB2025/FaultAware.pt": "22c7dede44a2adf99c55ed4c14f268cc82eff7a89a4518d875b326eb79caf806",
+    "models/openLAB2025/FaultAware_Control.pt": "2ad55f936cc6457aff6d559568e6e6a4c6ad4fa978b7fc15ce7edf6bf01c586b",
+    "models/openLAB2025/calibrators.json": "4f50e6e98ff8ce02365811454f7bbbafa010f62857ce1964df3e5df1d36fddf5"
+  },
+  "hash": "8bd1f9949ea8ad0d4af49e285c14f2ed275ebe41cf4520adbfee97f4d713e341",
+  "train_groups": [
+    "openLAB2025/2025-05-05 16-13-00 (1)",
+    "openLAB2025/2025-05-05 16-41-32 (3)",
+    "openLAB2025/2025-05-07 13-03-56 (2)",
+    "openLAB2025/2025-05-07 15-47-40 (5)"
+  ],
+  "dev_groups": [
+    "openLAB2025/2025-05-06 10-14-03 (8)",
+    "openLAB2025/2025-05-07 14-04-37 (4)"
+  ],
+  "cal_groups": [
+    "openLAB2025/2025-05-05 16-57-30 (4)",
+    "openLAB2025/2025-05-07 15-38-47 (3)"
+  ],
+  "selected_seconds": 20.0
+}

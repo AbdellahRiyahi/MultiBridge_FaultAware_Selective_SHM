@@ -1,0 +1,487 @@
+[
+  {
+    "test": "route345_baseline2_is_reference",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "route345_damage1_is_changed",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "route345_unknown_not_guessed",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "effective128_internal512",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "date_not_elapsed_duration",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "conflicting_effective_rates_blocked",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "openlab_reference_label",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "openlab_cut_label",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "openlab_exposed_not_cut",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "postload_not_invented_damage",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "native_velocity_role",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "shaker_alias_excluded",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "laser_not_force_or_response",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "unknown_numeric_not_response",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "shaker_regime_propagates_to_later_records",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "mat_bytes_labels",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "mat_char_matrix_labels",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "datetime_subtraction_preserves_resolution",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "explicit_ms_rate",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "clock_duplicate_blocked",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "clock_gap_blocked",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "short_gap_repaired",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "long_gap_not_reconstructed",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "edge_gap_not_extrapolated",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "physical_fault_affects_both_axes",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "fault_does_not_mutate_raw",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "deterministic_fault_seed",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "spectral_feature_shape",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "known_tone_peak",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "all_missing_not_valid_structure",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "test_windows_nonoverlap",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "minimum_group_allocation",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "too_few_groups_not_window_split",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "false_alarm_denominator_all_reference",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "false_no_alert_denominator_all_changed",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "abstention_not_counted_correct",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "risk_coverage_ties_not_optimistic",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "no_valid_sensors_zero_attainable_coverage",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "Route345_outer_every_acquisition_once",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "Route345_outer_fourparts_both_classes",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "openLAB2025_outer_every_acquisition_once",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "openLAB2025_outer_fourparts_both_classes",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "Z24_outer_same_setup_not_shared",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "outer_small_dataset_no_window_fallback",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "lowN_calibration_identity",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "no_reference_environment_override",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "GPU_policy_kernel_local",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "unknown_axis_not_coherence_peer",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "GPU_error_classification",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "array_hash_sensitive_to_data",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "holdout_drift_not_training_family",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v11_member_means_before_std",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v11_sigma030_maps060",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v11_member_and_row_order_invariant",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v11_duplicated_windows_not_new_group",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v11_invalid_probability_std_blocked",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v11_tied_coverage_reports_overshoot",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v11_hard_gate_reports_limited_coverage",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v11_no_sensors_no_acceptance",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v11_acquisition_budget_respected_on_cal",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v11_cal_duplicates_do_not_change_threshold",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v11_quality_test_labels_not_calibration",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v11_affine_requires_groups_per_class",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v11_all_models_same_primary_selector",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v11_test_labels_do_not_change_decisions",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v11_structural_test_cannot_fit_calibrator",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v11_one_sensor_always_abstains",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v11_reference_calibration_same_record_unit",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v11_quality_prevalence_and_false_positive",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v11_source_version_separate",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v11_default_never_claim_new_independent_test",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v11_no_added_models_required_for_primary",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v12_quantile_has_no_interpolated_scores",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v12_quantile_replication_invariant",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v12_saturated_cal_no_useful_alarm",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v12_out_of_range_threshold_diagnostic_only",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v12_three_cal_groups_resolution",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v12_unknown_not_negative",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v12_unknown_stays_in_service_denominators",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v12_useful_alarm_available",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v12_available_alarm_sensitivity",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v12_mixed_available_and_unknown_explicit",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v12_missing_fault_support_no_fictitious_threshold",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v12_invalid_quality_probability_blocked",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v12_available_threshold_cannot_exceed_one",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v12_test_cannot_calibrate_aggregation",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v12_nominal_replication_not_independent_calibration",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v12_axes_grouped_as_physical_instruments",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v12_q90_is_temporal_after_axis_max",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v12_aggregation_preserves_event_identity",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v12_window_count_reported",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v12_unknown_instrument_does_not_disable_structure",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v12_test_labels_not_used_by_nullable_decision",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v12_metrics_explicit_missing_instrument_service",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v12_reference_and_output_isolation",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v12_drift_feature_already_present",
+    "passed": true,
+    "details": ""
+  },
+  {
+    "test": "v12_default_keeps_reviewed_test_warning",
+    "passed": true,
+    "details": ""
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "aggregation": "max",
+  "budget_nominal_acquisition": 0.05,
+  "nominal_calibration_groups": 3,
+  "empirical_resolution_one_nominal_alert": 0.3333333333333333,
+  "population_false_alarm_guarantee": false,
+  "nominal_truth": "no_added_corruption; not certified hardware health",
+  "cal_groups": [
+    "Route345/baseline_2/acceleration/test_1",
+    "Route345/damage_2/acceleration/test_2",
+    "Route345/damage_3/acceleration/test_3"
+  ],
+  "uses_test_labels": false,
+  "warnings": [
+    "SMALL_N"
+  ],
+  "temporal_quantile": null,
+  "status": "EMPIRICAL_THRESHOLD_AVAILABLE",
+  "threshold": 0.4520532488822937,
+  "available": true,
+  "diagnostic_candidate_threshold": 0.4520532488822937,
+  "achieved_nominal_alert_fraction": 0.0,
+  "achieved_injected_detection_fraction": 0.6222222222222222,
+  "reason": "Detection >0 on cal under the nominal budget; NOT a guarantee of field usefulness.",
+  "max_nominal_score": 0.4396267831325531,
+  "max_injected_score": 1.0,
+  "local_diagnostic": {
+    "status": "DIAGNOSTIC_ONLY",
+    "threshold": 0.4,
+    "cal_local_weighted_f1": 0.691099476439787,
+    "decision_level": "channel_window"
+  },
+  "alternative_aggregation": {
+    "aggregation": "physical_q90",
+    "budget_nominal_acquisition": 0.05,
+    "nominal_calibration_groups": 3,
+    "empirical_resolution_one_nominal_alert": 0.3333333333333333,
+    "population_false_alarm_guarantee": false,
+    "nominal_truth": "no_added_corruption; not certified hardware health",
+    "cal_groups": [
+      "Route345/baseline_2/acceleration/test_1",
+      "Route345/damage_2/acceleration/test_2",
+      "Route345/damage_3/acceleration/test_3"
+    ],
+    "uses_test_labels": false,
+    "warnings": [
+      "SMALL_N"
+    ],
+    "temporal_quantile": 0.9,
+    "status": "EMPIRICAL_THRESHOLD_AVAILABLE",
+    "threshold": 0.4520532488822937,
+    "available": true,
+    "diagnostic_candidate_threshold": 0.4520532488822937,
+    "achieved_nominal_alert_fraction": 0.0,
+    "achieved_injected_detection_fraction": 0.6222222222222222,
+    "reason": "Detection >0 on cal under the nominal budget; NOT a guarantee of field usefulness.",
+    "max_nominal_score": 0.4396267831325531,
+    "max_injected_score": 1.0,
+    "calibration_only": true,
+    "used_for_structural_fusion": false
+  }
+}

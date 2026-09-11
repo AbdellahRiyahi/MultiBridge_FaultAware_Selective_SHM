@@ -1,0 +1,73 @@
+{
+  "status": "COMPLETE_TRAIN_ONLY",
+  "k": 2,
+  "ledger": [
+    {
+      "crossfit_fold": 1,
+      "fit_groups": [
+        "Route345/baseline_1/acceleration/test_3",
+        "Route345/damage_1/acceleration/test_3",
+        "Route345/damage_4/acceleration/test_2",
+        "Route345/damage_4/acceleration/test_3",
+        "Route345/damage_6/acceleration/test_2"
+      ],
+      "heldout_groups": [
+        "Route345/baseline_2/acceleration/test_1",
+        "Route345/damage_1/acceleration/test_2",
+        "Route345/damage_2/acceleration/test_1",
+        "Route345/damage_2/acceleration/test_3",
+        "Route345/damage_3/acceleration/test_3",
+        "Route345/damage_5/acceleration/test_2"
+      ],
+      "reference_fit_groups": [
+        "Route345/baseline_1/acceleration/test_3"
+      ],
+      "fit_rows": 108,
+      "heldout_rows": 129,
+      "no_group_overlap": true,
+      "transform_fit_groups": [
+        "Route345/baseline_1/acceleration/test_3",
+        "Route345/damage_1/acceleration/test_3",
+        "Route345/damage_4/acceleration/test_2",
+        "Route345/damage_4/acceleration/test_3",
+        "Route345/damage_6/acceleration/test_2"
+      ]
+    },
+    {
+      "crossfit_fold": 2,
+      "fit_groups": [
+        "Route345/baseline_2/acceleration/test_1",
+        "Route345/damage_1/acceleration/test_2",
+        "Route345/damage_2/acceleration/test_1",
+        "Route345/damage_2/acceleration/test_3",
+        "Route345/damage_3/acceleration/test_3",
+        "Route345/damage_5/acceleration/test_2"
+      ],
+      "heldout_groups": [
+        "Route345/baseline_1/acceleration/test_3",
+        "Route345/damage_1/acceleration/test_3",
+        "Route345/damage_4/acceleration/test_2",
+        "Route345/damage_4/acceleration/test_3",
+        "Route345/damage_6/acceleration/test_2"
+      ],
+      "reference_fit_groups": [
+        "Route345/baseline_2/acceleration/test_1"
+      ],
+      "fit_rows": 129,
+      "heldout_rows": 108,
+      "no_group_overlap": true,
+      "transform_fit_groups": [
+        "Route345/baseline_2/acceleration/test_1",
+        "Route345/damage_1/acceleration/test_2",
+        "Route345/damage_2/acceleration/test_1",
+        "Route345/damage_2/acceleration/test_3",
+        "Route345/damage_3/acceleration/test_3",
+        "Route345/damage_5/acceleration/test_2"
+      ]
+    }
+  ],
+  "prediction_sha256": "e46f7c0f3f8e6eccad2861083e97faa04ff3731dcf2d2c0fcc7afa7caf5ad94c",
+  "heldout_fault_absent": true,
+  "each_training_variant_predicted_once": true,
+  "quality_final_model_separately_fitted_on_all_train": true
+}

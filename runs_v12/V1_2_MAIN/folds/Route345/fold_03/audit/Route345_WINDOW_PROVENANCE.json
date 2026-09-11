@@ -1,0 +1,8 @@
+{
+  "status": "FROZEN_FROM_VERIFIED_V1_1_PROTOCOL",
+  "seconds": 20.0,
+  "source": "/home/a.riyahi/ICARC2027_MultiBridge_FaultAware_SHM/runs_v11/V1_1_MAIN/folds/Route345/fold_03/audit/Route345_SELECTED_PROTOCOL.json",
+  "source_sha256": "cf5aeedcdd6990b9952b8f86169502783c502360104955741234e6ae20df0374",
+  "new_window_search_performed": false,
+  "test_scores_used": false
+}

@@ -1,0 +1,21 @@
+{
+  "panel": [
+    "21_1K21_WZ_V47",
+    "33_1K33_WZ_V86"
+  ],
+  "physical_sensor_ids": [
+    "OL_V47",
+    "OL_V86"
+  ],
+  "axes": [
+    "unverified_direction",
+    "unverified_direction"
+  ],
+  "seconds": 20.0,
+  "band_hz": [
+    0.5,
+    25.0
+  ],
+  "welch_segment_seconds": 4.0,
+  "native_modality": "velocity"
+}

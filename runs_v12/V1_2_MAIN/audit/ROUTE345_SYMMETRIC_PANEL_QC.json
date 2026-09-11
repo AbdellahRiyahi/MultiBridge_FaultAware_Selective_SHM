@@ -1,0 +1,12 @@
+{
+  "configured_excluded_sensors": [
+    "A14"
+  ],
+  "scope": "complete physical sensor, all acquisitions and all selected axes",
+  "source_evidence": {
+    "source": "AGENTS.md, 26 Aug 2026; ProTwin_B_Three_Bridge_Reference_Calibrated_Experiment_V0_2_1.pdf, 30 Jul 2026",
+    "evidence_status": "REPORTED_REFERENCE_PROJECT_QC",
+    "evidence": "A14/z near-constant at damage_6/test_1..test_4 in the prior executed report. V1.0 removes the complete A14 sensor symmetrically from every acquisition before splitting. This does not claim a new real-data QC execution here; y-axis removal is a conservative physical-sensor policy."
+  },
+  "applied_to_all_extracted_records": true
+}

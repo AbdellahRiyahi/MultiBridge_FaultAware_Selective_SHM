@@ -1,0 +1,21 @@
+{
+  "status": "VERIFIED_SAME_EVENT_SCOPE",
+  "checks": [
+    {
+      "task": "Z24",
+      "verified": true,
+      "parent_sha256": "f4b05944760f0df1c9c8187806bdc5c2e23c493a083125def7f343ddf1f381f0"
+    },
+    {
+      "task": "Route345",
+      "verified": true,
+      "parent_sha256": "c3186bb6eab2b0f2111c976efe970d5b49e848d7ba1c72287134a6c886f9c9dc"
+    },
+    {
+      "task": "openLAB2025",
+      "verified": true,
+      "parent_sha256": "755b65c9a2bb165133383d873cd24ebf789d1ba33439863dde54ef075b9eaa86"
+    }
+  ],
+  "used_for_fitting": false
+}

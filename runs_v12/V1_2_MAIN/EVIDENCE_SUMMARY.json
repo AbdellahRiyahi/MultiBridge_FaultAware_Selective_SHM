@@ -1,0 +1,1997 @@
+{
+  "version": "1.2.0",
+  "run_id": "V1_2_MAIN",
+  "mode": "full",
+  "status": "COMPLETE_WITH_LIMITATIONS",
+  "error": null,
+  "data_origin": "LOCAL_ARCHIVES",
+  "interface": "Jupyter web, no shell required",
+  "implementation_hash": "d1bdf0edaca80030db4e397f4be56e2bbd02fba1cb538ebd417b785897ed8505",
+  "study_signature": "76d5aa8dbc67b01f07bfd911a69d7671fe32a83111c968d9198422c927abdccf",
+  "executed_on": "login02",
+  "device_initial": "cpu",
+  "device_final": "cpu",
+  "device_events": [],
+  "variant": "quality_crossfit",
+  "predictor_origins": {
+    "folds/Z24/fold_01": {
+      "mode": "V1_1_FROZEN_COMPARATORS",
+      "version": "1.1.0",
+      "source": "/home/a.riyahi/ICARC2027_MultiBridge_FaultAware_SHM/runs_v11/V1_1_MAIN/folds/Z24/fold_01",
+      "verified_model_hashes": {
+        "models/Z24/tabular_and_calibration.joblib": "fa76e3eee5c8c2f830e63aebc442633a6b9d3937472ceca33785bd12976b7f76",
+        "models/Z24/StandardNN.pt": "a237b6b3fb713672306cd879fc06f5857f7d6d0de6bcdd62f780f7cac21b2dba",
+        "models/Z24/FaultAware.pt": "019a4993960471eb57931d214024465bc81493bec9072b6fdd49f186b47f4328"
+      },
+      "reference_freeze_sha256": "887e40dadc697e6fb99c552adde9d71bef4421cf7bc7d874abc0dde54b690f7d",
+      "new_probability_and_selection_calibration": true,
+      "test_previously_inspected": true,
+      "control_source": "V1_1_FROZEN_COMPARATORS",
+      "primary_faultaware": "TRAIN_GROUP_OOF_QUALITY",
+      "quality_final_estimator_changed_by_crossfit": false,
+      "primary_new_training": true
+    },
+    "folds/Z24/fold_02": {
+      "mode": "V1_1_FROZEN_COMPARATORS",
+      "version": "1.1.0",
+      "source": "/home/a.riyahi/ICARC2027_MultiBridge_FaultAware_SHM/runs_v11/V1_1_MAIN/folds/Z24/fold_02",
+      "verified_model_hashes": {
+        "models/Z24/tabular_and_calibration.joblib": "211926a69e13bef1843343d41c93ffa59fedf0e94be56844316dc38d72515707",
+        "models/Z24/StandardNN.pt": "7d564bbfe360baf6785fce271385e32d12b499a9bbf563a90f1d1c95ea4debcd",
+        "models/Z24/FaultAware.pt": "c411e86742a0efbb567915d5448638f29ac26ea9168fa36445d06793fabefc85"
+      },
+      "reference_freeze_sha256": "02d465132054daa071a2ae14e5686ddd442b84daaba2cb4c59873b2062d859e1",
+      "new_probability_and_selection_calibration": true,
+      "test_previously_inspected": true,
+      "control_source": "V1_1_FROZEN_COMPARATORS",
+      "primary_faultaware": "TRAIN_GROUP_OOF_QUALITY",
+      "quality_final_estimator_changed_by_crossfit": false,
+      "primary_new_training": true
+    },
+    "folds/Z24/fold_03": {
+      "mode": "V1_1_FROZEN_COMPARATORS",
+      "version": "1.1.0",
+      "source": "/home/a.riyahi/ICARC2027_MultiBridge_FaultAware_SHM/runs_v11/V1_1_MAIN/folds/Z24/fold_03",
+      "verified_model_hashes": {
+        "models/Z24/tabular_and_calibration.joblib": "c87b24f4ec2f4fdfc21e2b67aa5d1738aaf978dfdce512dcf89f5cce5e0bb22e",
+        "models/Z24/StandardNN.pt": "507d5fa5d137b0a3a97ce99b56463e817b967b3b1e2b59ff255dc02676fe0e84",
+        "models/Z24/FaultAware.pt": "113db9815d1dca588a1c2678652267ab72e165740a726861894919e825cabefc"
+      },
+      "reference_freeze_sha256": "8ae5379beabe79f00578431fcc68c5b63ad0ad92aa18f282bd44f5b33ca97fd3",
+      "new_probability_and_selection_calibration": true,
+      "test_previously_inspected": true,
+      "control_source": "V1_1_FROZEN_COMPARATORS",
+      "primary_faultaware": "TRAIN_GROUP_OOF_QUALITY",
+      "quality_final_estimator_changed_by_crossfit": false,
+      "primary_new_training": true
+    },
+    "folds/Route345/fold_01": {
+      "mode": "V1_1_FROZEN_COMPARATORS",
+      "version": "1.1.0",
+      "source": "/home/a.riyahi/ICARC2027_MultiBridge_FaultAware_SHM/runs_v11/V1_1_MAIN/folds/Route345/fold_01",
+      "verified_model_hashes": {
+        "models/Route345/tabular_and_calibration.joblib": "d223481f3cb6038ff5d6616f0a59cd30fb8cd78ca7981da9331f66be48a09714",
+        "models/Route345/StandardNN.pt": "74ea3de95bf44551b392c2b3de3feda5b18552b004baaa06858841eaa7985cd3",
+        "models/Route345/FaultAware.pt": "f263ab81aaa370cd087171975f68049a5e2e3dd33f839d3e8506c1ca0fe8c36d"
+      },
+      "reference_freeze_sha256": "b88773576a744d3106744c2b2a0e46b6af3fcbf1b5031d67ab7e2dc1a2142b96",
+      "new_probability_and_selection_calibration": true,
+      "test_previously_inspected": true,
+      "control_source": "V1_1_FROZEN_COMPARATORS",
+      "primary_faultaware": "TRAIN_GROUP_OOF_QUALITY",
+      "quality_final_estimator_changed_by_crossfit": false,
+      "primary_new_training": true
+    },
+    "folds/Route345/fold_02": {
+      "mode": "V1_1_FROZEN_COMPARATORS",
+      "version": "1.1.0",
+      "source": "/home/a.riyahi/ICARC2027_MultiBridge_FaultAware_SHM/runs_v11/V1_1_MAIN/folds/Route345/fold_02",
+      "verified_model_hashes": {
+        "models/Route345/tabular_and_calibration.joblib": "df17068370618667d7c53f84f390215f671c8e421a7dad3728b3399c758c59d0",
+        "models/Route345/StandardNN.pt": "dcd27188f6e6a6c481cecf48b3cb7534e33f1424ad199f87ac7c0791e8263451",
+        "models/Route345/FaultAware.pt": "2a4c97449664adc8e524b0082057ba8d3572da9cb74fb7ef360d1e24ded9aca3"
+      },
+      "reference_freeze_sha256": "469f1fb56d49196c0048cdbadd145d0a7590895134c4242ade1432eddfc8e6ae",
+      "new_probability_and_selection_calibration": true,
+      "test_previously_inspected": true,
+      "control_source": "V1_1_FROZEN_COMPARATORS",
+      "primary_faultaware": "TRAIN_GROUP_OOF_QUALITY",
+      "quality_final_estimator_changed_by_crossfit": false,
+      "primary_new_training": true
+    },
+    "folds/Route345/fold_03": {
+      "mode": "V1_1_FROZEN_COMPARATORS",
+      "version": "1.1.0",
+      "source": "/home/a.riyahi/ICARC2027_MultiBridge_FaultAware_SHM/runs_v11/V1_1_MAIN/folds/Route345/fold_03",
+      "verified_model_hashes": {
+        "models/Route345/tabular_and_calibration.joblib": "6bad7f79500190fcffd6c9d32b22703a5a627c6aa96453870633e24b172058d3",
+        "models/Route345/StandardNN.pt": "4962d01a4b822578dab5294940736e62d9d67dbc64830fc7b41e2b347043e626",
+        "models/Route345/FaultAware.pt": "f3ef12a3babc430791c9efd7f7624ac902aed180cb9cdaeafac57d71ac12fd3e"
+      },
+      "reference_freeze_sha256": "af436255976a2ef30d21454a2b4d1440c33407c7cb72801107ee79917be3d1e9",
+      "new_probability_and_selection_calibration": true,
+      "test_previously_inspected": true,
+      "control_source": "V1_1_FROZEN_COMPARATORS",
+      "primary_faultaware": "TRAIN_GROUP_OOF_QUALITY",
+      "quality_final_estimator_changed_by_crossfit": false,
+      "primary_new_training": true
+    },
+    "folds/openLAB2025/fold_01": {
+      "mode": "V1_1_FROZEN_COMPARATORS",
+      "version": "1.1.0",
+      "source": "/home/a.riyahi/ICARC2027_MultiBridge_FaultAware_SHM/runs_v11/V1_1_MAIN/folds/openLAB2025/fold_01",
+      "verified_model_hashes": {
+        "models/openLAB2025/tabular_and_calibration.joblib": "de63ebfb8ac285b7f8a698578c49cfcc3d66d091b548159d53808e42deda332a",
+        "models/openLAB2025/StandardNN.pt": "5de1e14b312f618d2c564d6e1b14323347054343aac7768ed1f8a7899b74c0a0",
+        "models/openLAB2025/FaultAware.pt": "2955630d5d4bf8868ddb5bc065ff2996780c237a80f8c34a616e850476cb5423"
+      },
+      "reference_freeze_sha256": "8d044f8a21ea08b51c1dd95c9b90deb69ef6baa4105483695ac9373add38327c",
+      "new_probability_and_selection_calibration": true,
+      "test_previously_inspected": true,
+      "control_source": "V1_1_FROZEN_COMPARATORS",
+      "primary_faultaware": "TRAIN_GROUP_OOF_QUALITY",
+      "quality_final_estimator_changed_by_crossfit": false,
+      "primary_new_training": true
+    },
+    "folds/openLAB2025/fold_02": {
+      "mode": "V1_1_FROZEN_COMPARATORS",
+      "version": "1.1.0",
+      "source": "/home/a.riyahi/ICARC2027_MultiBridge_FaultAware_SHM/runs_v11/V1_1_MAIN/folds/openLAB2025/fold_02",
+      "verified_model_hashes": {
+        "models/openLAB2025/tabular_and_calibration.joblib": "bd0e29cef617a0563017ebed62a115700674c9364644747685d1cf82f47539bf",
+        "models/openLAB2025/StandardNN.pt": "afc4ccfbbf935a7fa0c888467d530ab6f6303e7f564524dd66bdb475b182ca45",
+        "models/openLAB2025/FaultAware.pt": "a962c316592a626cd2677724d6d6b788a719707986362fa80e4404f54b89677b"
+      },
+      "reference_freeze_sha256": "91ccef014787dbf8ac0444fe1ead4d6b45d5b823377f15eac1d89336b0a15498",
+      "new_probability_and_selection_calibration": true,
+      "test_previously_inspected": true,
+      "control_source": "V1_1_FROZEN_COMPARATORS",
+      "primary_faultaware": "TRAIN_GROUP_OOF_QUALITY",
+      "quality_final_estimator_changed_by_crossfit": false,
+      "primary_new_training": true
+    },
+    "folds/openLAB2025/fold_03": {
+      "mode": "V1_1_FROZEN_COMPARATORS",
+      "version": "1.1.0",
+      "source": "/home/a.riyahi/ICARC2027_MultiBridge_FaultAware_SHM/runs_v11/V1_1_MAIN/folds/openLAB2025/fold_03",
+      "verified_model_hashes": {
+        "models/openLAB2025/tabular_and_calibration.joblib": "2c3a996aa1f92ff3c3481a8cce5d12c6bf7079df30a32cad831b336fd3d65a48",
+        "models/openLAB2025/StandardNN.pt": "604307382c4e4b9bcb16ab7c2ed989920147086bad4264f90e2629dd0eaaaa94",
+        "models/openLAB2025/FaultAware.pt": "fa8d212595dec269f34009bf63f2d6dd112967f8aff9b016c788f35f7b5909ca"
+      },
+      "reference_freeze_sha256": "59e9cf88ac09bafcb19ecc844557cdd9dfe2651e65f3da7e3721eed9b682970e",
+      "new_probability_and_selection_calibration": true,
+      "test_previously_inspected": true,
+      "control_source": "V1_1_FROZEN_COMPARATORS",
+      "primary_faultaware": "TRAIN_GROUP_OOF_QUALITY",
+      "quality_final_estimator_changed_by_crossfit": false,
+      "primary_new_training": true
+    }
+  },
+  "previous_test_inspection": true,
+  "confirmation_status": "REVISED_ANALYSIS_ON_PREVIOUSLY_INSPECTED_BENCHMARK",
+  "quality_calibration_level": "acquisition_max_over_channels_and_windows",
+  "primary_selector": "confidence_entropy_identical_rule_for_all_six_models",
+  "dispersion_selector": "mean windows within each member then std(ddof=0) across members; normalized by 2",
+  "elapsed_seconds_this_session": 7987.885382950073,
+  "paper_results_available": true,
+  "all_requested_experiments_complete": true,
+  "scientific_review_required": true,
+  "performance_superiority": "NOT_ASSUMED",
+  "completed_required_tasks": [
+    "Z24",
+    "Route345",
+    "openLAB2025"
+  ],
+  "outer_folds": 3,
+  "tasks": {
+    "Z24/MiniRocket": "DISABLED_BY_CONFIG",
+    "Z24": {
+      "status": "COMPLETE",
+      "completed_outer_folds": 3,
+      "oof_acquisitions": 144,
+      "all_folds_calibration_frozen": true
+    },
+    "Route345/MiniRocket": "DISABLED_BY_CONFIG",
+    "Route345": {
+      "status": "COMPLETE",
+      "completed_outer_folds": 3,
+      "oof_acquisitions": 25,
+      "all_folds_calibration_frozen": true
+    },
+    "openLAB2025/MiniRocket": "DISABLED_BY_CONFIG",
+    "openLAB2025": {
+      "status": "COMPLETE",
+      "completed_outer_folds": 3,
+      "oof_acquisitions": 12,
+      "all_folds_calibration_frozen": true
+    },
+    "quality_transfer": {
+      "status": "COMPLETE",
+      "results": [
+        {
+          "target": "Z24",
+          "sources": "Route345+openLAB2025",
+          "subset": "all",
+          "status": "COMPLETE",
+          "zero_target_calibration": true,
+          "feature_count": 13,
+          "threshold_source_cal": 0.5,
+          "fault_f1_acquisition_weighted": 0.5058657474382224,
+          "fault_auroc_acquisition_weighted": 0.7082966575124031,
+          "target_acquisitions": 144,
+          "fault_truth": "synthetic window corruptions",
+          "max_channel_windows_per_acquisition": 2000,
+          "no_new_bridge_structural_claim": true,
+          "n_observations": 288000,
+          "positive_prevalence_weighted": 0.31638194444444445,
+          "precision": 0.37368619602007774,
+          "recall": 0.7827322812177616,
+          "false_positive_rate": 0.6071504759195864,
+          "f1": 0.5058657474394983,
+          "alert_fraction": 0.6627013888888889,
+          "tp_weight": 35.66050000000002,
+          "fp_weight": 59.768500000000046,
+          "fn_weight": 9.898500000000004,
+          "tn_weight": 38.67250000000003
+        },
+        {
+          "target": "Z24",
+          "sources": "Route345+openLAB2025",
+          "subset": "seen_family",
+          "status": "COMPLETE",
+          "zero_target_calibration": true,
+          "feature_count": 13,
+          "threshold_source_cal": 0.5,
+          "fault_f1_acquisition_weighted": 0.5173285984676472,
+          "fault_auroc_acquisition_weighted": 0.752011455077894,
+          "target_acquisitions": 144,
+          "fault_truth": "synthetic window corruptions",
+          "max_channel_windows_per_acquisition": 2000,
+          "no_new_bridge_structural_claim": true,
+          "n_observations": 242476,
+          "positive_prevalence_weighted": 0.3151115986736831,
+          "precision": 0.38037059160411113,
+          "recall": 0.8084076066329002,
+          "false_positive_rate": 0.6058987529279999,
+          "f1": 0.517328598468986,
+          "alert_fraction": 0.6697116415645259,
+          "tp_weight": 30.884000000000018,
+          "fp_weight": 50.31050000000003,
+          "fn_weight": 7.319500000000003,
+          "tn_weight": 32.72400000000002
+        },
+        {
+          "target": "Z24",
+          "sources": "Route345+openLAB2025",
+          "subset": "unseen_family",
+          "status": "COMPLETE",
+          "zero_target_calibration": true,
+          "feature_count": 13,
+          "threshold_source_cal": 0.5,
+          "fault_f1_acquisition_weighted": 0.3669714197910254,
+          "fault_auroc_acquisition_weighted": 0.48313228075299347,
+          "target_acquisitions": 144,
+          "fault_truth": "synthetic window corruptions",
+          "max_channel_windows_per_acquisition": 2000,
+          "no_new_bridge_structural_claim": true,
+          "n_observations": 60730,
+          "positive_prevalence_weighted": 0.24223612712003945,
+          "precision": 0.2557492035445614,
+          "recall": 0.6493780164502754,
+          "false_positive_rate": 0.6040983072209305,
+          "f1": 0.36697141979102643,
+          "alert_fraction": 0.6150666886217684,
+          "tp_weight": 4.776500000000002,
+          "fp_weight": 13.900000000000006,
+          "fn_weight": 2.5790000000000006,
+          "tn_weight": 9.109500000000004
+        },
+        {
+          "target": "Route345",
+          "sources": "Z24+openLAB2025",
+          "subset": "all",
+          "status": "COMPLETE",
+          "zero_target_calibration": true,
+          "feature_count": 13,
+          "threshold_source_cal": 0.475,
+          "fault_f1_acquisition_weighted": 0.08027203300069755,
+          "fault_auroc_acquisition_weighted": 0.7337027193266561,
+          "target_acquisitions": 25,
+          "fault_truth": "synthetic window corruptions",
+          "max_channel_windows_per_acquisition": 2000,
+          "no_new_bridge_structural_claim": true,
+          "n_observations": 50000,
+          "positive_prevalence_weighted": 0.033699999999999994,
+          "precision": 0.04211388295850028,
+          "recall": 0.8545994065281899,
+          "false_positive_rate": 0.6779054123978061,
+          "f1": 0.08027203300072466,
+          "alert_fraction": 0.6838599999999998,
+          "tp_weight": 0.7200000000000002,
+          "fp_weight": 16.376500000000007,
+          "fn_weight": 0.12250000000000005,
+          "tn_weight": 7.781000000000003
+        },
+        {
+          "target": "Route345",
+          "sources": "Z24+openLAB2025",
+          "subset": "seen_family",
+          "status": "COMPLETE",
+          "zero_target_calibration": true,
+          "feature_count": 13,
+          "threshold_source_cal": 0.475,
+          "fault_f1_acquisition_weighted": 0.08052042882269511,
+          "fault_auroc_acquisition_weighted": 0.7725500414039994,
+          "target_acquisitions": 25,
+          "fault_truth": "synthetic window corruptions",
+          "max_channel_windows_per_acquisition": 2000,
+          "no_new_bridge_structural_claim": true,
+          "n_observations": 41982,
+          "positive_prevalence_weighted": 0.033228526511361996,
+          "precision": 0.042214797800515055,
+          "recall": 0.8695340501792115,
+          "false_positive_rate": 0.6780742602311085,
+          "f1": 0.08052042882272892,
+          "alert_fraction": 0.6844361869372588,
+          "tp_weight": 0.6065,
+          "fp_weight": 13.760500000000006,
+          "fn_weight": 0.09100000000000003,
+          "tn_weight": 6.533000000000002
+        },
+        {
+          "target": "Route345",
+          "sources": "Z24+openLAB2025",
+          "subset": "unseen_family",
+          "status": "COMPLETE",
+          "zero_target_calibration": true,
+          "feature_count": 13,
+          "threshold_source_cal": 0.475,
+          "fault_f1_acquisition_weighted": 0.06027615507168812,
+          "fault_auroc_acquisition_weighted": 0.5449142111776164,
+          "target_acquisitions": 25,
+          "fault_truth": "synthetic window corruptions",
+          "max_channel_windows_per_acquisition": 2000,
+          "no_new_bridge_structural_claim": true,
+          "n_observations": 10600,
+          "positive_prevalence_weighted": 0.027358490566037733,
+          "precision": 0.03134493233913284,
+          "recall": 0.7827586206896553,
+          "false_positive_rate": 0.6804073714839961,
+          "f1": 0.06027615507169411,
+          "alert_fraction": 0.6832075471698112,
+          "tp_weight": 0.11350000000000005,
+          "fp_weight": 3.507500000000001,
+          "fn_weight": 0.0315,
+          "tn_weight": 1.6475000000000006
+        },
+        {
+          "target": "openLAB2025",
+          "sources": "Z24+Route345",
+          "subset": "all",
+          "status": "COMPLETE",
+          "zero_target_calibration": true,
+          "feature_count": 13,
+          "threshold_source_cal": 0.5,
+          "fault_f1_acquisition_weighted": 0.6650246839058361,
+          "fault_auroc_acquisition_weighted": 0.8186724799433212,
+          "target_acquisitions": 12,
+          "fault_truth": "synthetic window corruptions",
+          "max_channel_windows_per_acquisition": 2000,
+          "no_new_bridge_structural_claim": true,
+          "n_observations": 8550,
+          "positive_prevalence_weighted": 0.4736842105263159,
+          "precision": 1.0,
+          "recall": 0.4981550414366952,
+          "false_positive_rate": 0.0,
+          "f1": 0.6650246839058477,
+          "alert_fraction": 0.23596817752264512,
+          "tp_weight": 2.8316181302717407,
+          "fp_weight": 0.0,
+          "fn_weight": 2.852592396044048,
+          "tn_weight": 6.315789473684211
+        },
+        {
+          "target": "openLAB2025",
+          "sources": "Z24+Route345",
+          "subset": "seen_family",
+          "status": "COMPLETE",
+          "zero_target_calibration": true,
+          "feature_count": 13,
+          "threshold_source_cal": 0.5,
+          "fault_f1_acquisition_weighted": 0.6892290459697197,
+          "fault_auroc_acquisition_weighted": 0.787226754917697,
+          "target_acquisitions": 12,
+          "fault_truth": "synthetic window corruptions",
+          "max_channel_windows_per_acquisition": 2000,
+          "no_new_bridge_structural_claim": true,
+          "n_observations": 7200,
+          "positive_prevalence_weighted": 0.46875,
+          "precision": 1.0,
+          "recall": 0.5258195902575747,
+          "false_positive_rate": 0.0,
+          "f1": 0.689229045969728,
+          "alert_fraction": 0.24647793293323814,
+          "tp_weight": 2.490724374904301,
+          "fp_weight": 0.0,
+          "fn_weight": 2.246117730358856,
+          "tn_weight": 5.368421052631579
+        },
+        {
+          "target": "openLAB2025",
+          "sources": "Z24+Route345",
+          "subset": "unseen_family",
+          "status": "COMPLETE",
+          "zero_target_calibration": true,
+          "feature_count": 13,
+          "threshold_source_cal": 0.5,
+          "fault_f1_acquisition_weighted": 0.5292304029522074,
+          "fault_auroc_acquisition_weighted": 0.9739283205002376,
+          "target_acquisitions": 12,
+          "fault_truth": "synthetic window corruptions",
+          "max_channel_windows_per_acquisition": 2000,
+          "no_new_bridge_structural_claim": true,
+          "n_observations": 1800,
+          "positive_prevalence_weighted": 0.375,
+          "precision": 1.0,
+          "recall": 0.3598322973322974,
+          "false_positive_rate": 0.0,
+          "f1": 0.5292304029522052,
+          "alert_fraction": 0.13493711149961152,
+          "tp_weight": 0.34089375536743954,
+          "fp_weight": 0.0,
+          "fn_weight": 0.6064746656851918,
+          "tn_weight": 1.5789473684210527
+        }
+      ],
+      "target_tasks": [
+        "Z24",
+        "Route345",
+        "openLAB2025"
+      ]
+    },
+    "openLAB2024": {
+      "status": "COMPLETE_REFERENCE_ONLY",
+      "n_test_records": 174,
+      "n_test_days": 10,
+      "alarm_fraction_per_record": 0.0,
+      "abstention_fraction": 0.0,
+      "threshold": 33.965980529785156,
+      "calibration_unit": "same_acquisition_score_as_record_evaluation",
+      "record_quantile": 0.95,
+      "record_confidence_interval": {
+        "n_days": 10,
+        "ci95_alarm_low": 0.0,
+        "ci95_alarm_high": 0.0,
+        "interpretation": "conditional day-cluster bootstrap of record-level alarm fraction; no hourly guarantee"
+      },
+      "daily_analysis": {
+        "threshold": 17.099685668945312,
+        "calibration_and_evaluation_unit": "day_median_of_valid_record_scores",
+        "alarm_fraction_per_day": 0.0,
+        "abstention_fraction_per_day": 0.0
+      },
+      "no_damage_detection_claim": true,
+      "no_continuous_hourly_alarm_rate_claim": true,
+      "population_false_alarm_guarantee": false
+    },
+    "quality_crossfit": {
+      "status": "EXECUTED_TRAIN_ONLY",
+      "calibration_or_test_not_used": true
+    },
+    "state_blocked_generalization": {
+      "status": "NOT_IN_PRIMARY_PROTOCOL",
+      "no_claim": true
+    },
+    "cross_excitation_generalization": {
+      "status": "NOT_IN_PRIMARY_PROTOCOL",
+      "no_claim": true
+    }
+  },
+  "folds": {
+    "Z24": [
+      {
+        "status": "COMPLETE",
+        "selected_seconds": 20.0,
+        "panel": [
+          "R1V",
+          "R2L",
+          "R2T",
+          "R2V",
+          "R3V"
+        ],
+        "physical_sensors": [
+          "R1",
+          "R2",
+          "R3"
+        ],
+        "n_train_acquisitions": 64,
+        "n_dev_acquisitions": 16,
+        "n_cal_acquisitions": 16,
+        "n_test_acquisitions": 48,
+        "test_variants": 29184,
+        "test_events": 912,
+        "calibration_immutable": true,
+        "predictor_origin": {
+          "mode": "V1_1_FROZEN_COMPARATORS",
+          "version": "1.1.0",
+          "source": "/home/a.riyahi/ICARC2027_MultiBridge_FaultAware_SHM/runs_v11/V1_1_MAIN/folds/Z24/fold_01",
+          "verified_model_hashes": {
+            "models/Z24/tabular_and_calibration.joblib": "fa76e3eee5c8c2f830e63aebc442633a6b9d3937472ceca33785bd12976b7f76",
+            "models/Z24/StandardNN.pt": "a237b6b3fb713672306cd879fc06f5857f7d6d0de6bcdd62f780f7cac21b2dba",
+            "models/Z24/FaultAware.pt": "019a4993960471eb57931d214024465bc81493bec9072b6fdd49f186b47f4328"
+          },
+          "reference_freeze_sha256": "887e40dadc697e6fb99c552adde9d71bef4421cf7bc7d874abc0dde54b690f7d",
+          "new_probability_and_selection_calibration": true,
+          "test_previously_inspected": true,
+          "control_source": "V1_1_FROZEN_COMPARATORS",
+          "primary_faultaware": "TRAIN_GROUP_OOF_QUALITY",
+          "quality_final_estimator_changed_by_crossfit": false,
+          "primary_new_training": true
+        },
+        "quality_calibration_level": "acquisition",
+        "quality_alarm_status": "EMPIRICAL_THRESHOLD_AVAILABLE",
+        "quality_alarm_available": true,
+        "route345_q90_study": "NOT_REQUESTED",
+        "primary_selector": "common_confidence",
+        "quality_crossfit": true,
+        "source_origin": "LOCAL_REAL_ARCHIVES",
+        "outer_fold": 1,
+        "elapsed_seconds": 2082.9834526269697
+      },
+      {
+        "status": "COMPLETE",
+        "selected_seconds": 20.0,
+        "panel": [
+          "R1V",
+          "R2L",
+          "R2T",
+          "R2V",
+          "R3V"
+        ],
+        "physical_sensors": [
+          "R1",
+          "R2",
+          "R3"
+        ],
+        "n_train_acquisitions": 64,
+        "n_dev_acquisitions": 16,
+        "n_cal_acquisitions": 16,
+        "n_test_acquisitions": 48,
+        "test_variants": 29184,
+        "test_events": 912,
+        "calibration_immutable": true,
+        "predictor_origin": {
+          "mode": "V1_1_FROZEN_COMPARATORS",
+          "version": "1.1.0",
+          "source": "/home/a.riyahi/ICARC2027_MultiBridge_FaultAware_SHM/runs_v11/V1_1_MAIN/folds/Z24/fold_02",
+          "verified_model_hashes": {
+            "models/Z24/tabular_and_calibration.joblib": "211926a69e13bef1843343d41c93ffa59fedf0e94be56844316dc38d72515707",
+            "models/Z24/StandardNN.pt": "7d564bbfe360baf6785fce271385e32d12b499a9bbf563a90f1d1c95ea4debcd",
+            "models/Z24/FaultAware.pt": "c411e86742a0efbb567915d5448638f29ac26ea9168fa36445d06793fabefc85"
+          },
+          "reference_freeze_sha256": "02d465132054daa071a2ae14e5686ddd442b84daaba2cb4c59873b2062d859e1",
+          "new_probability_and_selection_calibration": true,
+          "test_previously_inspected": true,
+          "control_source": "V1_1_FROZEN_COMPARATORS",
+          "primary_faultaware": "TRAIN_GROUP_OOF_QUALITY",
+          "quality_final_estimator_changed_by_crossfit": false,
+          "primary_new_training": true
+        },
+        "quality_calibration_level": "acquisition",
+        "quality_alarm_status": "EMPIRICAL_THRESHOLD_AVAILABLE",
+        "quality_alarm_available": true,
+        "route345_q90_study": "NOT_REQUESTED",
+        "primary_selector": "common_confidence",
+        "quality_crossfit": true,
+        "source_origin": "LOCAL_REAL_ARCHIVES",
+        "outer_fold": 2,
+        "elapsed_seconds": 1797.0180575880222
+      },
+      {
+        "status": "COMPLETE",
+        "selected_seconds": 20.0,
+        "panel": [
+          "R1V",
+          "R2L",
+          "R2T",
+          "R2V",
+          "R3V"
+        ],
+        "physical_sensors": [
+          "R1",
+          "R2",
+          "R3"
+        ],
+        "n_train_acquisitions": 64,
+        "n_dev_acquisitions": 16,
+        "n_cal_acquisitions": 16,
+        "n_test_acquisitions": 48,
+        "test_variants": 29184,
+        "test_events": 912,
+        "calibration_immutable": true,
+        "predictor_origin": {
+          "mode": "V1_1_FROZEN_COMPARATORS",
+          "version": "1.1.0",
+          "source": "/home/a.riyahi/ICARC2027_MultiBridge_FaultAware_SHM/runs_v11/V1_1_MAIN/folds/Z24/fold_03",
+          "verified_model_hashes": {
+            "models/Z24/tabular_and_calibration.joblib": "c87b24f4ec2f4fdfc21e2b67aa5d1738aaf978dfdce512dcf89f5cce5e0bb22e",
+            "models/Z24/StandardNN.pt": "507d5fa5d137b0a3a97ce99b56463e817b967b3b1e2b59ff255dc02676fe0e84",
+            "models/Z24/FaultAware.pt": "113db9815d1dca588a1c2678652267ab72e165740a726861894919e825cabefc"
+          },
+          "reference_freeze_sha256": "8ae5379beabe79f00578431fcc68c5b63ad0ad92aa18f282bd44f5b33ca97fd3",
+          "new_probability_and_selection_calibration": true,
+          "test_previously_inspected": true,
+          "control_source": "V1_1_FROZEN_COMPARATORS",
+          "primary_faultaware": "TRAIN_GROUP_OOF_QUALITY",
+          "quality_final_estimator_changed_by_crossfit": false,
+          "primary_new_training": true
+        },
+        "quality_calibration_level": "acquisition",
+        "quality_alarm_status": "EMPIRICAL_THRESHOLD_AVAILABLE",
+        "quality_alarm_available": true,
+        "route345_q90_study": "NOT_REQUESTED",
+        "primary_selector": "common_confidence",
+        "quality_crossfit": true,
+        "source_origin": "LOCAL_REAL_ARCHIVES",
+        "outer_fold": 3,
+        "elapsed_seconds": 1719.2946590499487
+      }
+    ],
+    "Route345": [
+      {
+        "status": "COMPLETE",
+        "selected_seconds": 20.0,
+        "panel": [
+          "A01:y",
+          "A01:z",
+          "A02:y",
+          "A02:z",
+          "A03:y",
+          "A03:z",
+          "A04:y",
+          "A04:z",
+          "A05:y",
+          "A05:z",
+          "A06:y",
+          "A06:z",
+          "A07:y",
+          "A07:z",
+          "A08:y",
+          "A08:z",
+          "A09:y",
+          "A09:z",
+          "A10:y",
+          "A10:z",
+          "A11:y",
+          "A11:z",
+          "A12:y",
+          "A12:z",
+          "A13:y",
+          "A13:z",
+          "A15:y",
+          "A15:z",
+          "A16:y",
+          "A16:z",
+          "A17:y",
+          "A17:z",
+          "A18:y",
+          "A18:z",
+          "A19:y",
+          "A19:z",
+          "A20:y",
+          "A20:z",
+          "A21:y",
+          "A21:z",
+          "A22:y",
+          "A22:z",
+          "A23:y",
+          "A23:z",
+          "A24:y",
+          "A24:z",
+          "A25:y",
+          "A25:z",
+          "A26:y",
+          "A26:z",
+          "A27:y",
+          "A27:z",
+          "A28:y",
+          "A28:z",
+          "A29:y",
+          "A29:z",
+          "A30:y",
+          "A30:z"
+        ],
+        "physical_sensors": [
+          "A01",
+          "A02",
+          "A03",
+          "A04",
+          "A05",
+          "A06",
+          "A07",
+          "A08",
+          "A09",
+          "A10",
+          "A11",
+          "A12",
+          "A13",
+          "A15",
+          "A16",
+          "A17",
+          "A18",
+          "A19",
+          "A20",
+          "A21",
+          "A22",
+          "A23",
+          "A24",
+          "A25",
+          "A26",
+          "A27",
+          "A28",
+          "A29",
+          "A30"
+        ],
+        "n_train_acquisitions": 10,
+        "n_dev_acquisitions": 3,
+        "n_cal_acquisitions": 3,
+        "n_test_acquisitions": 9,
+        "test_variants": 684,
+        "test_events": 171,
+        "calibration_immutable": true,
+        "predictor_origin": {
+          "mode": "V1_1_FROZEN_COMPARATORS",
+          "version": "1.1.0",
+          "source": "/home/a.riyahi/ICARC2027_MultiBridge_FaultAware_SHM/runs_v11/V1_1_MAIN/folds/Route345/fold_01",
+          "verified_model_hashes": {
+            "models/Route345/tabular_and_calibration.joblib": "d223481f3cb6038ff5d6616f0a59cd30fb8cd78ca7981da9331f66be48a09714",
+            "models/Route345/StandardNN.pt": "74ea3de95bf44551b392c2b3de3feda5b18552b004baaa06858841eaa7985cd3",
+            "models/Route345/FaultAware.pt": "f263ab81aaa370cd087171975f68049a5e2e3dd33f839d3e8506c1ca0fe8c36d"
+          },
+          "reference_freeze_sha256": "b88773576a744d3106744c2b2a0e46b6af3fcbf1b5031d67ab7e2dc1a2142b96",
+          "new_probability_and_selection_calibration": true,
+          "test_previously_inspected": true,
+          "control_source": "V1_1_FROZEN_COMPARATORS",
+          "primary_faultaware": "TRAIN_GROUP_OOF_QUALITY",
+          "quality_final_estimator_changed_by_crossfit": false,
+          "primary_new_training": true
+        },
+        "quality_calibration_level": "acquisition",
+        "quality_alarm_status": "EMPIRICAL_THRESHOLD_AVAILABLE",
+        "quality_alarm_available": true,
+        "route345_q90_study": "EMPIRICAL_THRESHOLD_AVAILABLE",
+        "primary_selector": "common_confidence",
+        "quality_crossfit": true,
+        "source_origin": "LOCAL_REAL_ARCHIVES",
+        "outer_fold": 1,
+        "elapsed_seconds": 524.5814099370036
+      },
+      {
+        "status": "COMPLETE",
+        "selected_seconds": 20.0,
+        "panel": [
+          "A01:y",
+          "A01:z",
+          "A02:y",
+          "A02:z",
+          "A03:y",
+          "A03:z",
+          "A04:y",
+          "A04:z",
+          "A05:y",
+          "A05:z",
+          "A06:y",
+          "A06:z",
+          "A07:y",
+          "A07:z",
+          "A08:y",
+          "A08:z",
+          "A09:y",
+          "A09:z",
+          "A10:y",
+          "A10:z",
+          "A11:y",
+          "A11:z",
+          "A12:y",
+          "A12:z",
+          "A13:y",
+          "A13:z",
+          "A15:y",
+          "A15:z",
+          "A16:y",
+          "A16:z",
+          "A17:y",
+          "A17:z",
+          "A18:y",
+          "A18:z",
+          "A19:y",
+          "A19:z",
+          "A20:y",
+          "A20:z",
+          "A21:y",
+          "A21:z",
+          "A22:y",
+          "A22:z",
+          "A23:y",
+          "A23:z",
+          "A24:y",
+          "A24:z",
+          "A25:y",
+          "A25:z",
+          "A26:y",
+          "A26:z",
+          "A27:y",
+          "A27:z",
+          "A28:y",
+          "A28:z",
+          "A29:y",
+          "A29:z",
+          "A30:y",
+          "A30:z"
+        ],
+        "physical_sensors": [
+          "A01",
+          "A02",
+          "A03",
+          "A04",
+          "A05",
+          "A06",
+          "A07",
+          "A08",
+          "A09",
+          "A10",
+          "A11",
+          "A12",
+          "A13",
+          "A15",
+          "A16",
+          "A17",
+          "A18",
+          "A19",
+          "A20",
+          "A21",
+          "A22",
+          "A23",
+          "A24",
+          "A25",
+          "A26",
+          "A27",
+          "A28",
+          "A29",
+          "A30"
+        ],
+        "n_train_acquisitions": 11,
+        "n_dev_acquisitions": 3,
+        "n_cal_acquisitions": 3,
+        "n_test_acquisitions": 8,
+        "test_variants": 608,
+        "test_events": 152,
+        "calibration_immutable": true,
+        "predictor_origin": {
+          "mode": "V1_1_FROZEN_COMPARATORS",
+          "version": "1.1.0",
+          "source": "/home/a.riyahi/ICARC2027_MultiBridge_FaultAware_SHM/runs_v11/V1_1_MAIN/folds/Route345/fold_02",
+          "verified_model_hashes": {
+            "models/Route345/tabular_and_calibration.joblib": "df17068370618667d7c53f84f390215f671c8e421a7dad3728b3399c758c59d0",
+            "models/Route345/StandardNN.pt": "dcd27188f6e6a6c481cecf48b3cb7534e33f1424ad199f87ac7c0791e8263451",
+            "models/Route345/FaultAware.pt": "2a4c97449664adc8e524b0082057ba8d3572da9cb74fb7ef360d1e24ded9aca3"
+          },
+          "reference_freeze_sha256": "469f1fb56d49196c0048cdbadd145d0a7590895134c4242ade1432eddfc8e6ae",
+          "new_probability_and_selection_calibration": true,
+          "test_previously_inspected": true,
+          "control_source": "V1_1_FROZEN_COMPARATORS",
+          "primary_faultaware": "TRAIN_GROUP_OOF_QUALITY",
+          "quality_final_estimator_changed_by_crossfit": false,
+          "primary_new_training": true
+        },
+        "quality_calibration_level": "acquisition",
+        "quality_alarm_status": "NO_USEFUL_SENSOR_ALARM_THRESHOLD",
+        "quality_alarm_available": false,
+        "route345_q90_study": "NO_USEFUL_SENSOR_ALARM_THRESHOLD",
+        "primary_selector": "common_confidence",
+        "quality_crossfit": true,
+        "source_origin": "LOCAL_REAL_ARCHIVES",
+        "outer_fold": 2,
+        "elapsed_seconds": 436.43836891511455
+      },
+      {
+        "status": "COMPLETE",
+        "selected_seconds": 20.0,
+        "panel": [
+          "A01:y",
+          "A01:z",
+          "A02:y",
+          "A02:z",
+          "A03:y",
+          "A03:z",
+          "A04:y",
+          "A04:z",
+          "A05:y",
+          "A05:z",
+          "A06:y",
+          "A06:z",
+          "A07:y",
+          "A07:z",
+          "A08:y",
+          "A08:z",
+          "A09:y",
+          "A09:z",
+          "A10:y",
+          "A10:z",
+          "A11:y",
+          "A11:z",
+          "A12:y",
+          "A12:z",
+          "A13:y",
+          "A13:z",
+          "A15:y",
+          "A15:z",
+          "A16:y",
+          "A16:z",
+          "A17:y",
+          "A17:z",
+          "A18:y",
+          "A18:z",
+          "A19:y",
+          "A19:z",
+          "A20:y",
+          "A20:z",
+          "A21:y",
+          "A21:z",
+          "A22:y",
+          "A22:z",
+          "A23:y",
+          "A23:z",
+          "A24:y",
+          "A24:z",
+          "A25:y",
+          "A25:z",
+          "A26:y",
+          "A26:z",
+          "A27:y",
+          "A27:z",
+          "A28:y",
+          "A28:z",
+          "A29:y",
+          "A29:z",
+          "A30:y",
+          "A30:z"
+        ],
+        "physical_sensors": [
+          "A01",
+          "A02",
+          "A03",
+          "A04",
+          "A05",
+          "A06",
+          "A07",
+          "A08",
+          "A09",
+          "A10",
+          "A11",
+          "A12",
+          "A13",
+          "A15",
+          "A16",
+          "A17",
+          "A18",
+          "A19",
+          "A20",
+          "A21",
+          "A22",
+          "A23",
+          "A24",
+          "A25",
+          "A26",
+          "A27",
+          "A28",
+          "A29",
+          "A30"
+        ],
+        "n_train_acquisitions": 11,
+        "n_dev_acquisitions": 3,
+        "n_cal_acquisitions": 3,
+        "n_test_acquisitions": 8,
+        "test_variants": 608,
+        "test_events": 152,
+        "calibration_immutable": true,
+        "predictor_origin": {
+          "mode": "V1_1_FROZEN_COMPARATORS",
+          "version": "1.1.0",
+          "source": "/home/a.riyahi/ICARC2027_MultiBridge_FaultAware_SHM/runs_v11/V1_1_MAIN/folds/Route345/fold_03",
+          "verified_model_hashes": {
+            "models/Route345/tabular_and_calibration.joblib": "6bad7f79500190fcffd6c9d32b22703a5a627c6aa96453870633e24b172058d3",
+            "models/Route345/StandardNN.pt": "4962d01a4b822578dab5294940736e62d9d67dbc64830fc7b41e2b347043e626",
+            "models/Route345/FaultAware.pt": "f3ef12a3babc430791c9efd7f7624ac902aed180cb9cdaeafac57d71ac12fd3e"
+          },
+          "reference_freeze_sha256": "af436255976a2ef30d21454a2b4d1440c33407c7cb72801107ee79917be3d1e9",
+          "new_probability_and_selection_calibration": true,
+          "test_previously_inspected": true,
+          "control_source": "V1_1_FROZEN_COMPARATORS",
+          "primary_faultaware": "TRAIN_GROUP_OOF_QUALITY",
+          "quality_final_estimator_changed_by_crossfit": false,
+          "primary_new_training": true
+        },
+        "quality_calibration_level": "acquisition",
+        "quality_alarm_status": "EMPIRICAL_THRESHOLD_AVAILABLE",
+        "quality_alarm_available": true,
+        "route345_q90_study": "EMPIRICAL_THRESHOLD_AVAILABLE",
+        "primary_selector": "common_confidence",
+        "quality_crossfit": true,
+        "source_origin": "LOCAL_REAL_ARCHIVES",
+        "outer_fold": 3,
+        "elapsed_seconds": 402.4519455670379
+      }
+    ],
+    "openLAB2025": [
+      {
+        "status": "COMPLETE",
+        "selected_seconds": 20.0,
+        "panel": [
+          "21_1K21_WZ_V47",
+          "33_1K33_WZ_V86"
+        ],
+        "physical_sensors": [
+          "OL_V47",
+          "OL_V86"
+        ],
+        "n_train_acquisitions": 4,
+        "n_dev_acquisitions": 2,
+        "n_cal_acquisitions": 2,
+        "n_test_acquisitions": 4,
+        "test_variants": 1539,
+        "test_events": 76,
+        "calibration_immutable": true,
+        "predictor_origin": {
+          "mode": "V1_1_FROZEN_COMPARATORS",
+          "version": "1.1.0",
+          "source": "/home/a.riyahi/ICARC2027_MultiBridge_FaultAware_SHM/runs_v11/V1_1_MAIN/folds/openLAB2025/fold_01",
+          "verified_model_hashes": {
+            "models/openLAB2025/tabular_and_calibration.joblib": "de63ebfb8ac285b7f8a698578c49cfcc3d66d091b548159d53808e42deda332a",
+            "models/openLAB2025/StandardNN.pt": "5de1e14b312f618d2c564d6e1b14323347054343aac7768ed1f8a7899b74c0a0",
+            "models/openLAB2025/FaultAware.pt": "2955630d5d4bf8868ddb5bc065ff2996780c237a80f8c34a616e850476cb5423"
+          },
+          "reference_freeze_sha256": "8d044f8a21ea08b51c1dd95c9b90deb69ef6baa4105483695ac9373add38327c",
+          "new_probability_and_selection_calibration": true,
+          "test_previously_inspected": true,
+          "control_source": "V1_1_FROZEN_COMPARATORS",
+          "primary_faultaware": "TRAIN_GROUP_OOF_QUALITY",
+          "quality_final_estimator_changed_by_crossfit": false,
+          "primary_new_training": true
+        },
+        "quality_calibration_level": "acquisition",
+        "quality_alarm_status": "EMPIRICAL_THRESHOLD_AVAILABLE",
+        "quality_alarm_available": true,
+        "route345_q90_study": "NOT_REQUESTED",
+        "primary_selector": "common_confidence",
+        "quality_crossfit": true,
+        "source_origin": "LOCAL_REAL_ARCHIVES",
+        "outer_fold": 1,
+        "elapsed_seconds": 99.56015152600594
+      },
+      {
+        "status": "COMPLETE",
+        "selected_seconds": 20.0,
+        "panel": [
+          "21_1K21_WZ_V47",
+          "33_1K33_WZ_V86"
+        ],
+        "physical_sensors": [
+          "OL_V47",
+          "OL_V86"
+        ],
+        "n_train_acquisitions": 4,
+        "n_dev_acquisitions": 2,
+        "n_cal_acquisitions": 2,
+        "n_test_acquisitions": 4,
+        "test_variants": 1786,
+        "test_events": 76,
+        "calibration_immutable": true,
+        "predictor_origin": {
+          "mode": "V1_1_FROZEN_COMPARATORS",
+          "version": "1.1.0",
+          "source": "/home/a.riyahi/ICARC2027_MultiBridge_FaultAware_SHM/runs_v11/V1_1_MAIN/folds/openLAB2025/fold_02",
+          "verified_model_hashes": {
+            "models/openLAB2025/tabular_and_calibration.joblib": "bd0e29cef617a0563017ebed62a115700674c9364644747685d1cf82f47539bf",
+            "models/openLAB2025/StandardNN.pt": "afc4ccfbbf935a7fa0c888467d530ab6f6303e7f564524dd66bdb475b182ca45",
+            "models/openLAB2025/FaultAware.pt": "a962c316592a626cd2677724d6d6b788a719707986362fa80e4404f54b89677b"
+          },
+          "reference_freeze_sha256": "91ccef014787dbf8ac0444fe1ead4d6b45d5b823377f15eac1d89336b0a15498",
+          "new_probability_and_selection_calibration": true,
+          "test_previously_inspected": true,
+          "control_source": "V1_1_FROZEN_COMPARATORS",
+          "primary_faultaware": "TRAIN_GROUP_OOF_QUALITY",
+          "quality_final_estimator_changed_by_crossfit": false,
+          "primary_new_training": true
+        },
+        "quality_calibration_level": "acquisition",
+        "quality_alarm_status": "EMPIRICAL_THRESHOLD_AVAILABLE",
+        "quality_alarm_available": true,
+        "route345_q90_study": "NOT_REQUESTED",
+        "primary_selector": "common_confidence",
+        "quality_crossfit": true,
+        "source_origin": "LOCAL_REAL_ARCHIVES",
+        "outer_fold": 2,
+        "elapsed_seconds": 88.6333291628398
+      },
+      {
+        "status": "COMPLETE",
+        "selected_seconds": 20.0,
+        "panel": [
+          "21_1K21_WZ_V47",
+          "33_1K33_WZ_V86"
+        ],
+        "physical_sensors": [
+          "OL_V47",
+          "OL_V86"
+        ],
+        "n_train_acquisitions": 4,
+        "n_dev_acquisitions": 2,
+        "n_cal_acquisitions": 2,
+        "n_test_acquisitions": 4,
+        "test_variants": 950,
+        "test_events": 76,
+        "calibration_immutable": true,
+        "predictor_origin": {
+          "mode": "V1_1_FROZEN_COMPARATORS",
+          "version": "1.1.0",
+          "source": "/home/a.riyahi/ICARC2027_MultiBridge_FaultAware_SHM/runs_v11/V1_1_MAIN/folds/openLAB2025/fold_03",
+          "verified_model_hashes": {
+            "models/openLAB2025/tabular_and_calibration.joblib": "2c3a996aa1f92ff3c3481a8cce5d12c6bf7079df30a32cad831b336fd3d65a48",
+            "models/openLAB2025/StandardNN.pt": "604307382c4e4b9bcb16ab7c2ed989920147086bad4264f90e2629dd0eaaaa94",
+            "models/openLAB2025/FaultAware.pt": "fa8d212595dec269f34009bf63f2d6dd112967f8aff9b016c788f35f7b5909ca"
+          },
+          "reference_freeze_sha256": "59e9cf88ac09bafcb19ecc844557cdd9dfe2651e65f3da7e3721eed9b682970e",
+          "new_probability_and_selection_calibration": true,
+          "test_previously_inspected": true,
+          "control_source": "V1_1_FROZEN_COMPARATORS",
+          "primary_faultaware": "TRAIN_GROUP_OOF_QUALITY",
+          "quality_final_estimator_changed_by_crossfit": false,
+          "primary_new_training": true
+        },
+        "quality_calibration_level": "acquisition",
+        "quality_alarm_status": "EMPIRICAL_THRESHOLD_AVAILABLE",
+        "quality_alarm_available": true,
+        "route345_q90_study": "NOT_REQUESTED",
+        "primary_selector": "common_confidence",
+        "quality_crossfit": true,
+        "source_origin": "LOCAL_REAL_ARCHIVES",
+        "outer_fold": 3,
+        "elapsed_seconds": 86.8070268961601
+      }
+    ]
+  },
+  "gates": [
+    {
+      "gate": "Route345_release_V2",
+      "passed": true,
+      "mandatory": true,
+      "details": {
+        "md5": "5c3e2aff20e1984fce15bd18f57f62eb",
+        "expected": "5c3e2aff20e1984fce15bd18f57f62eb",
+        "synthetic_fixture_not_original_release": false
+      }
+    },
+    {
+      "gate": "Z24_response_records_found",
+      "passed": true,
+      "mandatory": true,
+      "details": {
+        "native_records": 153,
+        "primary_eligible": 144
+      }
+    },
+    {
+      "gate": "Z24_native_loader_errors",
+      "passed": true,
+      "mandatory": true,
+      "details": {
+        "error_count": 0,
+        "details_file": "DIAGNOSTICS.csv"
+      }
+    },
+    {
+      "gate": "Z24_two_structural_classes",
+      "passed": true,
+      "mandatory": true,
+      "details": {
+        "0": 18,
+        "1": 126
+      }
+    },
+    {
+      "gate": "Z24_fold1_four_disjoint_parts",
+      "passed": true,
+      "mandatory": true,
+      "details": {
+        "train": 64,
+        "test": 48,
+        "dev": 16,
+        "cal": 16
+      }
+    },
+    {
+      "gate": "Z24_fold1_verified_response_panel",
+      "passed": true,
+      "mandatory": true,
+      "details": {
+        "channels": [
+          "R1V",
+          "R2L",
+          "R2T",
+          "R2V",
+          "R3V"
+        ],
+        "physical_sensor_count": 3,
+        "fs_values": [
+          100.0
+        ]
+      }
+    },
+    {
+      "gate": "Z24_fold2_four_disjoint_parts",
+      "passed": true,
+      "mandatory": true,
+      "details": {
+        "train": 64,
+        "test": 48,
+        "cal": 16,
+        "dev": 16
+      }
+    },
+    {
+      "gate": "Z24_fold2_verified_response_panel",
+      "passed": true,
+      "mandatory": true,
+      "details": {
+        "channels": [
+          "R1V",
+          "R2L",
+          "R2T",
+          "R2V",
+          "R3V"
+        ],
+        "physical_sensor_count": 3,
+        "fs_values": [
+          100.0
+        ]
+      }
+    },
+    {
+      "gate": "Z24_fold3_four_disjoint_parts",
+      "passed": true,
+      "mandatory": true,
+      "details": {
+        "test": 48,
+        "train": 64,
+        "cal": 16,
+        "dev": 16
+      }
+    },
+    {
+      "gate": "Z24_fold3_verified_response_panel",
+      "passed": true,
+      "mandatory": true,
+      "details": {
+        "channels": [
+          "R1V",
+          "R2L",
+          "R2T",
+          "R2V",
+          "R3V"
+        ],
+        "physical_sensor_count": 3,
+        "fs_values": [
+          100.0
+        ]
+      }
+    },
+    {
+      "gate": "Route345_response_records_found",
+      "passed": true,
+      "mandatory": true,
+      "details": {
+        "native_records": 25,
+        "primary_eligible": 25
+      }
+    },
+    {
+      "gate": "Route345_native_loader_errors",
+      "passed": true,
+      "mandatory": true,
+      "details": {
+        "error_count": 0,
+        "details_file": "DIAGNOSTICS.csv"
+      }
+    },
+    {
+      "gate": "Route345_two_structural_classes",
+      "passed": true,
+      "mandatory": true,
+      "details": {
+        "0": 6,
+        "1": 19
+      }
+    },
+    {
+      "gate": "Route345_fold1_four_disjoint_parts",
+      "passed": true,
+      "mandatory": true,
+      "details": {
+        "train": 10,
+        "cal": 3,
+        "test": 9,
+        "dev": 3
+      }
+    },
+    {
+      "gate": "Route345_fold1_verified_response_panel",
+      "passed": true,
+      "mandatory": true,
+      "details": {
+        "channels": [
+          "A01:y",
+          "A01:z",
+          "A02:y",
+          "A02:z",
+          "A03:y",
+          "A03:z",
+          "A04:y",
+          "A04:z",
+          "A05:y",
+          "A05:z",
+          "A06:y",
+          "A06:z",
+          "A07:y",
+          "A07:z",
+          "A08:y",
+          "A08:z",
+          "A09:y",
+          "A09:z",
+          "A10:y",
+          "A10:z",
+          "A11:y",
+          "A11:z",
+          "A12:y",
+          "A12:z",
+          "A13:y",
+          "A13:z",
+          "A15:y",
+          "A15:z",
+          "A16:y",
+          "A16:z",
+          "A17:y",
+          "A17:z",
+          "A18:y",
+          "A18:z",
+          "A19:y",
+          "A19:z",
+          "A20:y",
+          "A20:z",
+          "A21:y",
+          "A21:z",
+          "A22:y",
+          "A22:z",
+          "A23:y",
+          "A23:z",
+          "A24:y",
+          "A24:z",
+          "A25:y",
+          "A25:z",
+          "A26:y",
+          "A26:z",
+          "A27:y",
+          "A27:z",
+          "A28:y",
+          "A28:z",
+          "A29:y",
+          "A29:z",
+          "A30:y",
+          "A30:z"
+        ],
+        "physical_sensor_count": 29,
+        "fs_values": [
+          128.0
+        ]
+      }
+    },
+    {
+      "gate": "Route345_fold2_four_disjoint_parts",
+      "passed": true,
+      "mandatory": true,
+      "details": {
+        "cal": 3,
+        "test": 8,
+        "train": 11,
+        "dev": 3
+      }
+    },
+    {
+      "gate": "Route345_fold2_verified_response_panel",
+      "passed": true,
+      "mandatory": true,
+      "details": {
+        "channels": [
+          "A01:y",
+          "A01:z",
+          "A02:y",
+          "A02:z",
+          "A03:y",
+          "A03:z",
+          "A04:y",
+          "A04:z",
+          "A05:y",
+          "A05:z",
+          "A06:y",
+          "A06:z",
+          "A07:y",
+          "A07:z",
+          "A08:y",
+          "A08:z",
+          "A09:y",
+          "A09:z",
+          "A10:y",
+          "A10:z",
+          "A11:y",
+          "A11:z",
+          "A12:y",
+          "A12:z",
+          "A13:y",
+          "A13:z",
+          "A15:y",
+          "A15:z",
+          "A16:y",
+          "A16:z",
+          "A17:y",
+          "A17:z",
+          "A18:y",
+          "A18:z",
+          "A19:y",
+          "A19:z",
+          "A20:y",
+          "A20:z",
+          "A21:y",
+          "A21:z",
+          "A22:y",
+          "A22:z",
+          "A23:y",
+          "A23:z",
+          "A24:y",
+          "A24:z",
+          "A25:y",
+          "A25:z",
+          "A26:y",
+          "A26:z",
+          "A27:y",
+          "A27:z",
+          "A28:y",
+          "A28:z",
+          "A29:y",
+          "A29:z",
+          "A30:y",
+          "A30:z"
+        ],
+        "physical_sensor_count": 29,
+        "fs_values": [
+          128.0
+        ]
+      }
+    },
+    {
+      "gate": "Route345_fold3_four_disjoint_parts",
+      "passed": true,
+      "mandatory": true,
+      "details": {
+        "test": 8,
+        "train": 11,
+        "cal": 3,
+        "dev": 3
+      }
+    },
+    {
+      "gate": "Route345_fold3_verified_response_panel",
+      "passed": true,
+      "mandatory": true,
+      "details": {
+        "channels": [
+          "A01:y",
+          "A01:z",
+          "A02:y",
+          "A02:z",
+          "A03:y",
+          "A03:z",
+          "A04:y",
+          "A04:z",
+          "A05:y",
+          "A05:z",
+          "A06:y",
+          "A06:z",
+          "A07:y",
+          "A07:z",
+          "A08:y",
+          "A08:z",
+          "A09:y",
+          "A09:z",
+          "A10:y",
+          "A10:z",
+          "A11:y",
+          "A11:z",
+          "A12:y",
+          "A12:z",
+          "A13:y",
+          "A13:z",
+          "A15:y",
+          "A15:z",
+          "A16:y",
+          "A16:z",
+          "A17:y",
+          "A17:z",
+          "A18:y",
+          "A18:z",
+          "A19:y",
+          "A19:z",
+          "A20:y",
+          "A20:z",
+          "A21:y",
+          "A21:z",
+          "A22:y",
+          "A22:z",
+          "A23:y",
+          "A23:z",
+          "A24:y",
+          "A24:z",
+          "A25:y",
+          "A25:z",
+          "A26:y",
+          "A26:z",
+          "A27:y",
+          "A27:z",
+          "A28:y",
+          "A28:z",
+          "A29:y",
+          "A29:z",
+          "A30:y",
+          "A30:z"
+        ],
+        "physical_sensor_count": 29,
+        "fs_values": [
+          128.0
+        ]
+      }
+    },
+    {
+      "gate": "openLAB2025_response_records_found",
+      "passed": true,
+      "mandatory": true,
+      "details": {
+        "native_records": 82,
+        "primary_eligible": 12
+      }
+    },
+    {
+      "gate": "openLAB2025_native_loader_errors",
+      "passed": true,
+      "mandatory": true,
+      "details": {
+        "error_count": 0,
+        "details_file": "DIAGNOSTICS.csv"
+      }
+    },
+    {
+      "gate": "openLAB2025_two_structural_classes",
+      "passed": true,
+      "mandatory": true,
+      "details": {
+        "0": 6,
+        "1": 6
+      }
+    },
+    {
+      "gate": "openLAB2025_fold1_four_disjoint_parts",
+      "passed": true,
+      "mandatory": true,
+      "details": {
+        "test": 4,
+        "train": 4,
+        "cal": 2,
+        "dev": 2
+      }
+    },
+    {
+      "gate": "openLAB2025_fold1_verified_response_panel",
+      "passed": true,
+      "mandatory": true,
+      "details": {
+        "channels": [
+          "21_1K21_WZ_V47",
+          "33_1K33_WZ_V86"
+        ],
+        "physical_sensor_count": 2,
+        "fs_values": [
+          1000.0
+        ]
+      }
+    },
+    {
+      "gate": "openLAB2025_fold2_four_disjoint_parts",
+      "passed": true,
+      "mandatory": true,
+      "details": {
+        "cal": 2,
+        "test": 4,
+        "train": 4,
+        "dev": 2
+      }
+    },
+    {
+      "gate": "openLAB2025_fold2_verified_response_panel",
+      "passed": true,
+      "mandatory": true,
+      "details": {
+        "channels": [
+          "21_1K21_WZ_V47",
+          "33_1K33_WZ_V86"
+        ],
+        "physical_sensor_count": 2,
+        "fs_values": [
+          1000.0
+        ]
+      }
+    },
+    {
+      "gate": "openLAB2025_fold3_four_disjoint_parts",
+      "passed": true,
+      "mandatory": true,
+      "details": {
+        "train": 4,
+        "cal": 2,
+        "test": 4,
+        "dev": 2
+      }
+    },
+    {
+      "gate": "openLAB2025_fold3_verified_response_panel",
+      "passed": true,
+      "mandatory": true,
+      "details": {
+        "channels": [
+          "21_1K21_WZ_V47",
+          "33_1K33_WZ_V86"
+        ],
+        "physical_sensor_count": 2,
+        "fs_values": [
+          1000.0
+        ]
+      }
+    },
+    {
+      "gate": "full_integrity_hashes_enabled",
+      "passed": true,
+      "mandatory": true,
+      "details": "Full SHA256 input provenance enabled"
+    },
+    {
+      "gate": "Z24_full_clock_and_waveform_integrity",
+      "passed": true,
+      "mandatory": true,
+      "details": {
+        "complete_records": 144,
+        "test_occurrences_per_acquisition": 1
+      }
+    },
+    {
+      "gate": "Route345_full_clock_and_waveform_integrity",
+      "passed": true,
+      "mandatory": true,
+      "details": {
+        "complete_records": 25,
+        "test_occurrences_per_acquisition": 1
+      }
+    },
+    {
+      "gate": "openLAB2025_full_clock_and_waveform_integrity",
+      "passed": true,
+      "mandatory": true,
+      "details": {
+        "complete_records": 12,
+        "test_occurrences_per_acquisition": 1
+      }
+    },
+    {
+      "gate": "Z24_OOF_EACH_ACQUISITION_ONCE",
+      "passed": true,
+      "mandatory": true,
+      "details": {
+        "expected": 144,
+        "observed": 144
+      }
+    },
+    {
+      "gate": "Route345_OOF_EACH_ACQUISITION_ONCE",
+      "passed": true,
+      "mandatory": true,
+      "details": {
+        "expected": 25,
+        "observed": 25
+      }
+    },
+    {
+      "gate": "openLAB2025_OOF_EACH_ACQUISITION_ONCE",
+      "passed": true,
+      "mandatory": true,
+      "details": {
+        "expected": 12,
+        "observed": 12
+      }
+    },
+    {
+      "gate": "crossfit_all_heldout_training_groups_excluded",
+      "passed": true,
+      "mandatory": true,
+      "details": {
+        "rows": 236,
+        "tasks": [
+          "Route345",
+          "Z24",
+          "openLAB2025"
+        ]
+      }
+    }
+  ],
+  "software_tests": {
+    "passed": 97,
+    "total": 97
+  },
+  "results_files": {
+    "tables/ARTICLE_MAIN_RESULTS.csv": {
+      "bytes": 250272,
+      "sha256": "df56eae4a64e34a3ae1e216afef7ec47674957d56346871706c22ad7c66cb7c7"
+    },
+    "tables/MAIN_METRICS.csv": {
+      "bytes": 1052711,
+      "sha256": "f739d60f4e95abaa86d8628c5479add80cdb31df13bd7628ac9a09710a863089"
+    },
+    "tables/PAIRED_BOOTSTRAP.csv": {
+      "bytes": 103348,
+      "sha256": "6688109e400f61c9113f7daf118ebade077604eb43a2dcd154d0ae16eae218a5"
+    },
+    "tables/QUALITY_TRANSFER.csv": {
+      "bytes": 3211,
+      "sha256": "1395ea52efaa43b3ba7aac67d1a2d883b99bb3e19ced6374143b81564b59c1b0"
+    },
+    "tables/MACRO_THREE_BRIDGES.csv": {
+      "bytes": 41454,
+      "sha256": "f46e1d0b3b996301d9d612969852b919a3acdbf359a0ba19c49ccdd5dbb43c4a"
+    },
+    "tables/OPENLAB2024_REFERENCE_RESULTS.json": {
+      "bytes": 851,
+      "sha256": "7fe47a51c92e51b74f909a2aa12c88236f49ec796e294d50e3c2fade33889385"
+    },
+    "tables/QUALITY_ACQUISITION_TEST.csv": {
+      "bytes": 18154,
+      "sha256": "b4c7609027b897d135e8de82b27527c2fc9d08788aab4ffb2ab0479062bcdb02"
+    },
+    "tables/QUALITY_CALIBRATION_SUMMARY.csv": {
+      "bytes": 4116,
+      "sha256": "5038a85d71b036d23e9239eb2527cdb2d45d6ab611aed5cdca4876a48afcc49e"
+    },
+    "tables/UNCERTAINTY_DIAGNOSTICS.csv": {
+      "bytes": 15484,
+      "sha256": "9f58e407f3b854cd575b5b9b24f96ff276fc71156f0b3c0084b1e5198ab975d8"
+    },
+    "tables/CROSSFIT_GROUP_AUDIT.csv": {
+      "bytes": 216342,
+      "sha256": "53bb5ba5192d108c6e9152c090c386dca6f9a5fe7ef89288b0b72193dda6d8a2"
+    },
+    "tables/QUALITY_CALIBRATION_FEASIBILITY.csv": {
+      "bytes": 4116,
+      "sha256": "5038a85d71b036d23e9239eb2527cdb2d45d6ab611aed5cdca4876a48afcc49e"
+    },
+    "tables/QUALITY_SCORE_ORIGIN.csv": {
+      "bytes": 8582741,
+      "sha256": "b3f4e1eacd1d4f169ef21f76eae5955a14465d6d21c76513bbbd52d7719020b1"
+    },
+    "tables/QUALITY_NOMINAL_CORRUPTED_PAIRS.csv": {
+      "bytes": 1294817,
+      "sha256": "ef7f62dcd1bf85e546cacdf1670ec94ae661adcf676071617a0e104e528bf9e0"
+    },
+    "tables/DRIFT_WINDOW_DIAGNOSTICS.csv": {
+      "bytes": 91154,
+      "sha256": "42a4771788adf830f59041b3777b57844915a6335c2bc1d607a4799bdb0feb24"
+    },
+    "tables/ROUTE345_AGGREGATION_COMPARISON.csv": {
+      "bytes": 37167,
+      "sha256": "d5f2c26bad5e69779c75839c7d25ecf7326d56ea46e169c2fece1c991e5d579d"
+    },
+    "tables/ROUTE345_AGGREGATION_OOF.csv": {
+      "bytes": 12935,
+      "sha256": "2c3d24e2771b9aea0a425ce67969df6b48a3ec2057905c577eee33951c1ea2c5"
+    },
+    "tables/BASELINE_REUSE_AUDIT.csv": {
+      "bytes": 6079,
+      "sha256": "1a3f85f1dda3dae5f86ad0beff7e033532fc2123643a677312f94e01f3e0f32e"
+    },
+    "tables/V1_1_V1_2_COMPARISON.csv": {
+      "bytes": 273507,
+      "sha256": "2711a529c3c61ad6844f5b55143cdcc407212f8310b4ea7832029c8f14fb0e37"
+    }
+  },
+  "sources": {
+    "Z24": {
+      "url": "https://bwk.kuleuven.be/bwm/z24",
+      "evidence": "KU Leuven PDT description and chronological table; five reference channels, native 100 Hz. No redistribution of raw Z24."
+    },
+    "Route345": {
+      "url": "https://zenodo.org/records/15497673",
+      "evidence": "V2 checksum; acceleration/strain separate. Native sample_rate=128 versus internal_sample_rate=512 documented in prior MARWAN audit, 26 Aug 2026."
+    },
+    "Route345_panel_QC": {
+      "source": "AGENTS.md, 26 Aug 2026; ProTwin_B_Three_Bridge_Reference_Calibrated_Experiment_V0_2_1.pdf, 30 Jul 2026",
+      "evidence_status": "REPORTED_REFERENCE_PROJECT_QC",
+      "evidence": "A14/z near-constant at damage_6/test_1..test_4 in the prior executed report. V1.0 removes the complete A14 sensor symmetrically from every acquisition before splitting. This does not claim a new real-data QC execution here; y-axis removal is a conservative physical-sensor policy."
+    },
+    "openLAB2025": {
+      "url": "https://zenodo.org/records/18546379",
+      "log": "2025_05_05_Übersicht_Messungen.txt",
+      "evidence": "BAM campaign log; WZ_V47/WZ_V86 velocities; SH1/SH2 shaker acceleration; laser displacement."
+    },
+    "openLAB2024": {
+      "url": "https://opara.zih.tu-dresden.de/items/6653124a-8659-40b8-817e-51250639c95b",
+      "evidence": "Separate reference monitoring; six G_ACCZ channels, documented 500 Hz; event-triggered records, not continuous exposure."
+    },
+    "Welch": {
+      "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.welch.html",
+      "evidence": "Explicit Hann, density scaling, nfft=nperseg. Bin interpolation does not improve physical resolution."
+    },
+    "calibration": {
+      "url": "https://proceedings.mlr.press/v70/guo17a.html",
+      "evidence": "Post-hoc calibration background. V1.0 uses monotone affine-logit calibration on separate groups; no distribution-free guarantee."
+    },
+    "selective": {
+      "url": "https://proceedings.mlr.press/v97/geifman19a.html",
+      "evidence": "Risk/coverage terminology. This implementation is not claimed to reproduce SelectiveNet."
+    },
+    "CUDA": {
+      "url": "https://docs.pytorch.org/docs/stable/generated/torch.cuda.is_available.html",
+      "evidence": "Availability is local to this Python kernel; no Slurm allocation is requested."
+    },
+    "grouped_evaluation": {
+      "url": "https://scikit-learn.org/stable/modules/cross_validation.html",
+      "evidence": "Group-disjoint development/evaluation principle. Our three-way outer rotation is specified below, not a claimed dataset requirement."
+    }
+  },
+  "limitations": [
+    "Endpoint: documented structural change versus reference, not RUL, optimal maintenance or safety certification.",
+    "Nominal recordings may have unannotated sensor problems; truth for quality evaluation means added synthetic corruption.",
+    "Three outer folds test every retained acquisition once. Model training sets overlap between folds; neither folds nor windows are independent new campaigns.",
+    "Route345 and openLAB have few independent reference acquisitions. Low-N calibration uses identity probabilities and a fixed 0.5 structural threshold; abstention calibration remains empirical.",
+    "Group/state-cluster bootstrap intervals are conditional descriptive intervals from frozen OOF predictions, not a population guarantee.",
+    "The primary evaluation does not withhold entire damage states or entire new bridges from the structural model.",
+    "openLAB 2025 uses only the two verified velocity response channels, random excitation, A40 and the accepted hardware regime; other recordings remain explicitly outside scope.",
+    "Losing one of two openLAB response sensors may make a structural decision unavailable; rejection is not a correct diagnosis.",
+    "Corruptions are local to source windows after source-native preprocessing; they do not reconstruct a persistent hardware failure across the complete recording.",
+    "A14 exclusion is symmetric and based on previously reported project QC; no new independent physical-fault label is claimed.",
+    "openLAB 2024 is a separate event-triggered reference experiment; alarm fractions are not continuous hourly rates.",
+    "Cross-bridge quality transfer uses shared synthetic corruption templates. Good results do not establish field fault transfer.",
+    "V1.2 revises a benchmark whose V1.0 test results have already been inspected. This is not a new independent confirmatory test.",
+    "Sensor-check thresholds are acquisition-level empirical calibrations; small calibration cohorts do not establish a population false-alarm guarantee.",
+    "Confidence scores use genuine ties; connecting points in ranking plots does not create attainable intermediate coverages.",
+    "Quality cross-fitting is the primary separately labelled training experiment, not an automatic improvement claim.",
+    "The same architecture/configuration is used on CPU and CUDA, but floating-point results need not be bit-for-bit identical.",
+    "All performance values come from this execution. Statistical superiority, causal damage identification and conference acceptance are not guaranteed."
+  ],
+  "paper_claim": "Calculated OOF evidence only; no automatic claim of superiority or manuscript acceptance.",
+  "instrument_decision_availability": [
+    {
+      "task": "Route345",
+      "outer_fold": "fold_01",
+      "aggregation": "max",
+      "status": "EMPIRICAL_THRESHOLD_AVAILABLE",
+      "available": true
+    },
+    {
+      "task": "Route345",
+      "outer_fold": "fold_01",
+      "aggregation": "physical_q90",
+      "status": "EMPIRICAL_THRESHOLD_AVAILABLE",
+      "available": true
+    },
+    {
+      "task": "Route345",
+      "outer_fold": "fold_02",
+      "aggregation": "max",
+      "status": "NO_USEFUL_SENSOR_ALARM_THRESHOLD",
+      "available": false
+    },
+    {
+      "task": "Route345",
+      "outer_fold": "fold_02",
+      "aggregation": "physical_q90",
+      "status": "NO_USEFUL_SENSOR_ALARM_THRESHOLD",
+      "available": false
+    },
+    {
+      "task": "Route345",
+      "outer_fold": "fold_03",
+      "aggregation": "max",
+      "status": "EMPIRICAL_THRESHOLD_AVAILABLE",
+      "available": true
+    },
+    {
+      "task": "Route345",
+      "outer_fold": "fold_03",
+      "aggregation": "physical_q90",
+      "status": "EMPIRICAL_THRESHOLD_AVAILABLE",
+      "available": true
+    },
+    {
+      "task": "Z24",
+      "outer_fold": "fold_01",
+      "aggregation": "max",
+      "status": "EMPIRICAL_THRESHOLD_AVAILABLE",
+      "available": true
+    },
+    {
+      "task": "Z24",
+      "outer_fold": "fold_02",
+      "aggregation": "max",
+      "status": "EMPIRICAL_THRESHOLD_AVAILABLE",
+      "available": true
+    },
+    {
+      "task": "Z24",
+      "outer_fold": "fold_03",
+      "aggregation": "max",
+      "status": "EMPIRICAL_THRESHOLD_AVAILABLE",
+      "available": true
+    },
+    {
+      "task": "openLAB2025",
+      "outer_fold": "fold_01",
+      "aggregation": "max",
+      "status": "EMPIRICAL_THRESHOLD_AVAILABLE",
+      "available": true
+    },
+    {
+      "task": "openLAB2025",
+      "outer_fold": "fold_02",
+      "aggregation": "max",
+      "status": "EMPIRICAL_THRESHOLD_AVAILABLE",
+      "available": true
+    },
+    {
+      "task": "openLAB2025",
+      "outer_fold": "fold_03",
+      "aggregation": "max",
+      "status": "EMPIRICAL_THRESHOLD_AVAILABLE",
+      "available": true
+    }
+  ],
+  "instrument_threshold_limitations": [
+    {
+      "task": "Route345",
+      "outer_fold": "fold_02",
+      "aggregation": "max",
+      "status": "NO_USEFUL_SENSOR_ALARM_THRESHOLD"
+    },
+    {
+      "task": "Route345",
+      "outer_fold": "fold_02",
+      "aggregation": "physical_q90",
+      "status": "NO_USEFUL_SENSOR_ALARM_THRESHOLD"
+    }
+  ],
+  "availability_note": "UNDETERMINED is not NO_CHECK; conditional performance and end-to-end service fractions are reported separately",
+  "primary_training_variant": "quality_crossfit",
+  "window_selection_policy": "verified V1.1 duration per fold, otherwise predeclared fixed 20 seconds; no new search",
+  "reference_version": "1.1.0",
+  "reference_root": "/home/a.riyahi/ICARC2027_MultiBridge_FaultAware_SHM/runs_v11/V1_1_MAIN",
+  "crossfit_does_not_itself_modify_final_quality_estimator": true,
+  "route345_aggregation_study": {
+    "enabled": true,
+    "quantile": 0.9,
+    "scope": "instrumental decisions only; max vs inverse empirical CDF after physical-axis pooling",
+    "no_best_test_method_selected": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "status": "COMPLETE_TRAIN_ONLY",
+  "k": 2,
+  "ledger": [
+    {
+      "crossfit_fold": 1,
+      "fit_groups": [
+        "openLAB2025/2025-05-05 16-41-32 (3)",
+        "openLAB2025/2025-05-07 15-43-10 (4)"
+      ],
+      "heldout_groups": [
+        "openLAB2025/2025-05-06 10-14-03 (8)",
+        "openLAB2025/2025-05-07 14-00-20 (3)"
+      ],
+      "reference_fit_groups": [
+        "openLAB2025/2025-05-05 16-41-32 (3)"
+      ],
+      "fit_rows": 222,
+      "heldout_rows": 132,
+      "no_group_overlap": true,
+      "transform_fit_groups": [
+        "openLAB2025/2025-05-05 16-41-32 (3)",
+        "openLAB2025/2025-05-07 15-43-10 (4)"
+      ]
+    },
+    {
+      "crossfit_fold": 2,
+      "fit_groups": [
+        "openLAB2025/2025-05-06 10-14-03 (8)",
+        "openLAB2025/2025-05-07 14-00-20 (3)"
+      ],
+      "heldout_groups": [
+        "openLAB2025/2025-05-05 16-41-32 (3)",
+        "openLAB2025/2025-05-07 15-43-10 (4)"
+      ],
+      "reference_fit_groups": [
+        "openLAB2025/2025-05-06 10-14-03 (8)"
+      ],
+      "fit_rows": 132,
+      "heldout_rows": 222,
+      "no_group_overlap": true,
+      "transform_fit_groups": [
+        "openLAB2025/2025-05-06 10-14-03 (8)",
+        "openLAB2025/2025-05-07 14-00-20 (3)"
+      ]
+    }
+  ],
+  "prediction_sha256": "3b9f0e86f47a44b636d7a8c510fbeed19665c560e06275bdeca738033512e296",
+  "heldout_fault_absent": true,
+  "each_training_variant_predicted_once": true,
+  "quality_final_model_separately_fitted_on_all_train": true
+}

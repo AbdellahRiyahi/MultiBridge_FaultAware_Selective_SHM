@@ -1,0 +1,44 @@
+{
+  "Z24": {
+    "url": "https://bwk.kuleuven.be/bwm/z24",
+    "evidence": "KU Leuven PDT description and chronological table; five reference channels, native 100 Hz. No redistribution of raw Z24."
+  },
+  "Route345": {
+    "url": "https://zenodo.org/records/15497673",
+    "evidence": "V2 checksum; acceleration/strain separate. Native sample_rate=128 versus internal_sample_rate=512 documented in prior MARWAN audit, 26 Aug 2026."
+  },
+  "Route345_panel_QC": {
+    "source": "AGENTS.md, 26 Aug 2026; ProTwin_B_Three_Bridge_Reference_Calibrated_Experiment_V0_2_1.pdf, 30 Jul 2026",
+    "evidence_status": "REPORTED_REFERENCE_PROJECT_QC",
+    "evidence": "A14/z near-constant at damage_6/test_1..test_4 in the prior executed report. V1.0 removes the complete A14 sensor symmetrically from every acquisition before splitting. This does not claim a new real-data QC execution here; y-axis removal is a conservative physical-sensor policy."
+  },
+  "openLAB2025": {
+    "url": "https://zenodo.org/records/18546379",
+    "log": "2025_05_05_Übersicht_Messungen.txt",
+    "evidence": "BAM campaign log; WZ_V47/WZ_V86 velocities; SH1/SH2 shaker acceleration; laser displacement."
+  },
+  "openLAB2024": {
+    "url": "https://opara.zih.tu-dresden.de/items/6653124a-8659-40b8-817e-51250639c95b",
+    "evidence": "Separate reference monitoring; six G_ACCZ channels, documented 500 Hz; event-triggered records, not continuous exposure."
+  },
+  "Welch": {
+    "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.welch.html",
+    "evidence": "Explicit Hann, density scaling, nfft=nperseg. Bin interpolation does not improve physical resolution."
+  },
+  "calibration": {
+    "url": "https://proceedings.mlr.press/v70/guo17a.html",
+    "evidence": "Post-hoc calibration background. V1.0 uses monotone affine-logit calibration on separate groups; no distribution-free guarantee."
+  },
+  "selective": {
+    "url": "https://proceedings.mlr.press/v97/geifman19a.html",
+    "evidence": "Risk/coverage terminology. This implementation is not claimed to reproduce SelectiveNet."
+  },
+  "CUDA": {
+    "url": "https://docs.pytorch.org/docs/stable/generated/torch.cuda.is_available.html",
+    "evidence": "Availability is local to this Python kernel; no Slurm allocation is requested."
+  },
+  "grouped_evaluation": {
+    "url": "https://scikit-learn.org/stable/modules/cross_validation.html",
+    "evidence": "Group-disjoint development/evaluation principle. Our three-way outer rotation is specified below, not a claimed dataset requirement."
+  }
+}

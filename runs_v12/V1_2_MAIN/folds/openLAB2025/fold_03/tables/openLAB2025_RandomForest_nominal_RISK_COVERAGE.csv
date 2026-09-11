@@ -1,0 +1,5 @@
+coverage,risk,uncertainty_threshold,accepted_events,tie_block_size,coverage_reference,coverage_altered,attainable_point
+0.25,0.0,0.23674758601853213,1,1,0.5,0.0,True
+0.5,0.0,0.7496806468782856,2,1,1.0,0.0,True
+0.75,0.0,0.8260584580699613,3,1,1.0,0.5,True
+1.0,0.0,0.9686960972858146,4,1,1.0,1.0,True

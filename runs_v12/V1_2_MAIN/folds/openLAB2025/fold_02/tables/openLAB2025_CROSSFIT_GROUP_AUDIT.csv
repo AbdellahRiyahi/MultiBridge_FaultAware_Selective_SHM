@@ -1,0 +1,5 @@
+task,crossfit_fold,heldout_group,n_fit_groups,n_reference_fit_groups,fit_groups_json,reference_groups_json,heldout_excluded_from_model,heldout_excluded_from_transform,cal_or_test_used
+openLAB2025,1,openLAB2025/2025-05-06 09-58-33 (5),2,1,"[""openLAB2025/2025-05-05 16-57-30 (4)"", ""openLAB2025/2025-05-07 15-43-10 (4)""]","[""openLAB2025/2025-05-05 16-57-30 (4)""]",True,True,False
+openLAB2025,1,openLAB2025/2025-05-07 15-38-47 (3),2,1,"[""openLAB2025/2025-05-05 16-57-30 (4)"", ""openLAB2025/2025-05-07 15-43-10 (4)""]","[""openLAB2025/2025-05-05 16-57-30 (4)""]",True,True,False
+openLAB2025,2,openLAB2025/2025-05-05 16-57-30 (4),2,1,"[""openLAB2025/2025-05-06 09-58-33 (5)"", ""openLAB2025/2025-05-07 15-38-47 (3)""]","[""openLAB2025/2025-05-06 09-58-33 (5)""]",True,True,False
+openLAB2025,2,openLAB2025/2025-05-07 15-43-10 (4),2,1,"[""openLAB2025/2025-05-06 09-58-33 (5)"", ""openLAB2025/2025-05-07 15-38-47 (3)""]","[""openLAB2025/2025-05-06 09-58-33 (5)""]",True,True,False

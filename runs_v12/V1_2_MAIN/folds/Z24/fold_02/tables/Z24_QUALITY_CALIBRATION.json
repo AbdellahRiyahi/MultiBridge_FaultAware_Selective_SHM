@@ -1,0 +1,46 @@
+{
+  "aggregation": "max",
+  "budget_nominal_acquisition": 0.05,
+  "nominal_calibration_groups": 16,
+  "empirical_resolution_one_nominal_alert": 0.0625,
+  "population_false_alarm_guarantee": false,
+  "nominal_truth": "no_added_corruption; not certified hardware health",
+  "cal_groups": [
+    "Z24/01/setup07",
+    "Z24/03/setup07",
+    "Z24/04/setup07",
+    "Z24/05/setup07",
+    "Z24/06/setup07",
+    "Z24/07/setup07",
+    "Z24/08/setup07",
+    "Z24/09/setup07",
+    "Z24/10/setup07",
+    "Z24/11/setup07",
+    "Z24/12/setup07",
+    "Z24/13/setup07",
+    "Z24/14/setup07",
+    "Z24/15/setup07",
+    "Z24/16/setup07",
+    "Z24/17/setup07"
+  ],
+  "uses_test_labels": false,
+  "warnings": [
+    "SMALL_N"
+  ],
+  "temporal_quantile": null,
+  "status": "EMPIRICAL_THRESHOLD_AVAILABLE",
+  "threshold": 0.9773091673851013,
+  "available": true,
+  "diagnostic_candidate_threshold": 0.9773091673851013,
+  "achieved_nominal_alert_fraction": 0.0,
+  "achieved_injected_detection_fraction": 0.6416666666666666,
+  "reason": "Detection >0 on cal under the nominal budget; NOT a guarantee of field usefulness.",
+  "max_nominal_score": 0.9742078185081482,
+  "max_injected_score": 1.0,
+  "local_diagnostic": {
+    "status": "DIAGNOSTIC_ONLY",
+    "threshold": 0.55,
+    "cal_local_weighted_f1": 0.7887433201173142,
+    "decision_level": "channel_window"
+  }
+}

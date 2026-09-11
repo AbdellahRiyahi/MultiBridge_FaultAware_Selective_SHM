@@ -1,0 +1,62 @@
+{
+  "aggregation": "max",
+  "budget_nominal_acquisition": 0.05,
+  "nominal_calibration_groups": 3,
+  "empirical_resolution_one_nominal_alert": 0.3333333333333333,
+  "population_false_alarm_guarantee": false,
+  "nominal_truth": "no_added_corruption; not certified hardware health",
+  "cal_groups": [
+    "Route345/baseline_1/acceleration/test_1",
+    "Route345/damage_3/acceleration/test_1",
+    "Route345/damage_6/acceleration/test_3"
+  ],
+  "uses_test_labels": false,
+  "warnings": [
+    "SMALL_N"
+  ],
+  "temporal_quantile": null,
+  "status": "NO_USEFUL_SENSOR_ALARM_THRESHOLD",
+  "threshold": null,
+  "available": false,
+  "diagnostic_candidate_threshold": 1.0000000000000002,
+  "achieved_nominal_alert_fraction": 0.0,
+  "achieved_injected_detection_fraction": 0.0,
+  "reason": "No admissible candidate detects added calibration corruptions. Instrumental decision UNDETERMINED.",
+  "max_nominal_score": 1.0,
+  "max_injected_score": 1.0,
+  "local_diagnostic": {
+    "status": "DIAGNOSTIC_ONLY",
+    "threshold": 0.4,
+    "cal_local_weighted_f1": 0.1685874217978331,
+    "decision_level": "channel_window"
+  },
+  "alternative_aggregation": {
+    "aggregation": "physical_q90",
+    "budget_nominal_acquisition": 0.05,
+    "nominal_calibration_groups": 3,
+    "empirical_resolution_one_nominal_alert": 0.3333333333333333,
+    "population_false_alarm_guarantee": false,
+    "nominal_truth": "no_added_corruption; not certified hardware health",
+    "cal_groups": [
+      "Route345/baseline_1/acceleration/test_1",
+      "Route345/damage_3/acceleration/test_1",
+      "Route345/damage_6/acceleration/test_3"
+    ],
+    "uses_test_labels": false,
+    "warnings": [
+      "SMALL_N"
+    ],
+    "temporal_quantile": 0.9,
+    "status": "NO_USEFUL_SENSOR_ALARM_THRESHOLD",
+    "threshold": null,
+    "available": false,
+    "diagnostic_candidate_threshold": 1.0000000000000002,
+    "achieved_nominal_alert_fraction": 0.0,
+    "achieved_injected_detection_fraction": 0.0,
+    "reason": "No admissible candidate detects added calibration corruptions. Instrumental decision UNDETERMINED.",
+    "max_nominal_score": 1.0,
+    "max_injected_score": 1.0,
+    "calibration_only": true,
+    "used_for_structural_fusion": false
+  }
+}

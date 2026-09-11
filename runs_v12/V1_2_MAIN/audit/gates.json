@@ -1,0 +1,577 @@
+[
+  {
+    "gate": "Route345_release_V2",
+    "passed": true,
+    "mandatory": true,
+    "details": {
+      "md5": "5c3e2aff20e1984fce15bd18f57f62eb",
+      "expected": "5c3e2aff20e1984fce15bd18f57f62eb",
+      "synthetic_fixture_not_original_release": false
+    }
+  },
+  {
+    "gate": "Z24_response_records_found",
+    "passed": true,
+    "mandatory": true,
+    "details": {
+      "native_records": 153,
+      "primary_eligible": 144
+    }
+  },
+  {
+    "gate": "Z24_native_loader_errors",
+    "passed": true,
+    "mandatory": true,
+    "details": {
+      "error_count": 0,
+      "details_file": "DIAGNOSTICS.csv"
+    }
+  },
+  {
+    "gate": "Z24_two_structural_classes",
+    "passed": true,
+    "mandatory": true,
+    "details": {
+      "0": 18,
+      "1": 126
+    }
+  },
+  {
+    "gate": "Z24_fold1_four_disjoint_parts",
+    "passed": true,
+    "mandatory": true,
+    "details": {
+      "train": 64,
+      "test": 48,
+      "dev": 16,
+      "cal": 16
+    }
+  },
+  {
+    "gate": "Z24_fold1_verified_response_panel",
+    "passed": true,
+    "mandatory": true,
+    "details": {
+      "channels": [
+        "R1V",
+        "R2L",
+        "R2T",
+        "R2V",
+        "R3V"
+      ],
+      "physical_sensor_count": 3,
+      "fs_values": [
+        100.0
+      ]
+    }
+  },
+  {
+    "gate": "Z24_fold2_four_disjoint_parts",
+    "passed": true,
+    "mandatory": true,
+    "details": {
+      "train": 64,
+      "test": 48,
+      "cal": 16,
+      "dev": 16
+    }
+  },
+  {
+    "gate": "Z24_fold2_verified_response_panel",
+    "passed": true,
+    "mandatory": true,
+    "details": {
+      "channels": [
+        "R1V",
+        "R2L",
+        "R2T",
+        "R2V",
+        "R3V"
+      ],
+      "physical_sensor_count": 3,
+      "fs_values": [
+        100.0
+      ]
+    }
+  },
+  {
+    "gate": "Z24_fold3_four_disjoint_parts",
+    "passed": true,
+    "mandatory": true,
+    "details": {
+      "test": 48,
+      "train": 64,
+      "cal": 16,
+      "dev": 16
+    }
+  },
+  {
+    "gate": "Z24_fold3_verified_response_panel",
+    "passed": true,
+    "mandatory": true,
+    "details": {
+      "channels": [
+        "R1V",
+        "R2L",
+        "R2T",
+        "R2V",
+        "R3V"
+      ],
+      "physical_sensor_count": 3,
+      "fs_values": [
+        100.0
+      ]
+    }
+  },
+  {
+    "gate": "Route345_response_records_found",
+    "passed": true,
+    "mandatory": true,
+    "details": {
+      "native_records": 25,
+      "primary_eligible": 25
+    }
+  },
+  {
+    "gate": "Route345_native_loader_errors",
+    "passed": true,
+    "mandatory": true,
+    "details": {
+      "error_count": 0,
+      "details_file": "DIAGNOSTICS.csv"
+    }
+  },
+  {
+    "gate": "Route345_two_structural_classes",
+    "passed": true,
+    "mandatory": true,
+    "details": {
+      "0": 6,
+      "1": 19
+    }
+  },
+  {
+    "gate": "Route345_fold1_four_disjoint_parts",
+    "passed": true,
+    "mandatory": true,
+    "details": {
+      "train": 10,
+      "cal": 3,
+      "test": 9,
+      "dev": 3
+    }
+  },
+  {
+    "gate": "Route345_fold1_verified_response_panel",
+    "passed": true,
+    "mandatory": true,
+    "details": {
+      "channels": [
+        "A01:y",
+        "A01:z",
+        "A02:y",
+        "A02:z",
+        "A03:y",
+        "A03:z",
+        "A04:y",
+        "A04:z",
+        "A05:y",
+        "A05:z",
+        "A06:y",
+        "A06:z",
+        "A07:y",
+        "A07:z",
+        "A08:y",
+        "A08:z",
+        "A09:y",
+        "A09:z",
+        "A10:y",
+        "A10:z",
+        "A11:y",
+        "A11:z",
+        "A12:y",
+        "A12:z",
+        "A13:y",
+        "A13:z",
+        "A15:y",
+        "A15:z",
+        "A16:y",
+        "A16:z",
+        "A17:y",
+        "A17:z",
+        "A18:y",
+        "A18:z",
+        "A19:y",
+        "A19:z",
+        "A20:y",
+        "A20:z",
+        "A21:y",
+        "A21:z",
+        "A22:y",
+        "A22:z",
+        "A23:y",
+        "A23:z",
+        "A24:y",
+        "A24:z",
+        "A25:y",
+        "A25:z",
+        "A26:y",
+        "A26:z",
+        "A27:y",
+        "A27:z",
+        "A28:y",
+        "A28:z",
+        "A29:y",
+        "A29:z",
+        "A30:y",
+        "A30:z"
+      ],
+      "physical_sensor_count": 29,
+      "fs_values": [
+        128.0
+      ]
+    }
+  },
+  {
+    "gate": "Route345_fold2_four_disjoint_parts",
+    "passed": true,
+    "mandatory": true,
+    "details": {
+      "cal": 3,
+      "test": 8,
+      "train": 11,
+      "dev": 3
+    }
+  },
+  {
+    "gate": "Route345_fold2_verified_response_panel",
+    "passed": true,
+    "mandatory": true,
+    "details": {
+      "channels": [
+        "A01:y",
+        "A01:z",
+        "A02:y",
+        "A02:z",
+        "A03:y",
+        "A03:z",
+        "A04:y",
+        "A04:z",
+        "A05:y",
+        "A05:z",
+        "A06:y",
+        "A06:z",
+        "A07:y",
+        "A07:z",
+        "A08:y",
+        "A08:z",
+        "A09:y",
+        "A09:z",
+        "A10:y",
+        "A10:z",
+        "A11:y",
+        "A11:z",
+        "A12:y",
+        "A12:z",
+        "A13:y",
+        "A13:z",
+        "A15:y",
+        "A15:z",
+        "A16:y",
+        "A16:z",
+        "A17:y",
+        "A17:z",
+        "A18:y",
+        "A18:z",
+        "A19:y",
+        "A19:z",
+        "A20:y",
+        "A20:z",
+        "A21:y",
+        "A21:z",
+        "A22:y",
+        "A22:z",
+        "A23:y",
+        "A23:z",
+        "A24:y",
+        "A24:z",
+        "A25:y",
+        "A25:z",
+        "A26:y",
+        "A26:z",
+        "A27:y",
+        "A27:z",
+        "A28:y",
+        "A28:z",
+        "A29:y",
+        "A29:z",
+        "A30:y",
+        "A30:z"
+      ],
+      "physical_sensor_count": 29,
+      "fs_values": [
+        128.0
+      ]
+    }
+  },
+  {
+    "gate": "Route345_fold3_four_disjoint_parts",
+    "passed": true,
+    "mandatory": true,
+    "details": {
+      "test": 8,
+      "train": 11,
+      "cal": 3,
+      "dev": 3
+    }
+  },
+  {
+    "gate": "Route345_fold3_verified_response_panel",
+    "passed": true,
+    "mandatory": true,
+    "details": {
+      "channels": [
+        "A01:y",
+        "A01:z",
+        "A02:y",
+        "A02:z",
+        "A03:y",
+        "A03:z",
+        "A04:y",
+        "A04:z",
+        "A05:y",
+        "A05:z",
+        "A06:y",
+        "A06:z",
+        "A07:y",
+        "A07:z",
+        "A08:y",
+        "A08:z",
+        "A09:y",
+        "A09:z",
+        "A10:y",
+        "A10:z",
+        "A11:y",
+        "A11:z",
+        "A12:y",
+        "A12:z",
+        "A13:y",
+        "A13:z",
+        "A15:y",
+        "A15:z",
+        "A16:y",
+        "A16:z",
+        "A17:y",
+        "A17:z",
+        "A18:y",
+        "A18:z",
+        "A19:y",
+        "A19:z",
+        "A20:y",
+        "A20:z",
+        "A21:y",
+        "A21:z",
+        "A22:y",
+        "A22:z",
+        "A23:y",
+        "A23:z",
+        "A24:y",
+        "A24:z",
+        "A25:y",
+        "A25:z",
+        "A26:y",
+        "A26:z",
+        "A27:y",
+        "A27:z",
+        "A28:y",
+        "A28:z",
+        "A29:y",
+        "A29:z",
+        "A30:y",
+        "A30:z"
+      ],
+      "physical_sensor_count": 29,
+      "fs_values": [
+        128.0
+      ]
+    }
+  },
+  {
+    "gate": "openLAB2025_response_records_found",
+    "passed": true,
+    "mandatory": true,
+    "details": {
+      "native_records": 82,
+      "primary_eligible": 12
+    }
+  },
+  {
+    "gate": "openLAB2025_native_loader_errors",
+    "passed": true,
+    "mandatory": true,
+    "details": {
+      "error_count": 0,
+      "details_file": "DIAGNOSTICS.csv"
+    }
+  },
+  {
+    "gate": "openLAB2025_two_structural_classes",
+    "passed": true,
+    "mandatory": true,
+    "details": {
+      "0": 6,
+      "1": 6
+    }
+  },
+  {
+    "gate": "openLAB2025_fold1_four_disjoint_parts",
+    "passed": true,
+    "mandatory": true,
+    "details": {
+      "test": 4,
+      "train": 4,
+      "cal": 2,
+      "dev": 2
+    }
+  },
+  {
+    "gate": "openLAB2025_fold1_verified_response_panel",
+    "passed": true,
+    "mandatory": true,
+    "details": {
+      "channels": [
+        "21_1K21_WZ_V47",
+        "33_1K33_WZ_V86"
+      ],
+      "physical_sensor_count": 2,
+      "fs_values": [
+        1000.0
+      ]
+    }
+  },
+  {
+    "gate": "openLAB2025_fold2_four_disjoint_parts",
+    "passed": true,
+    "mandatory": true,
+    "details": {
+      "cal": 2,
+      "test": 4,
+      "train": 4,
+      "dev": 2
+    }
+  },
+  {
+    "gate": "openLAB2025_fold2_verified_response_panel",
+    "passed": true,
+    "mandatory": true,
+    "details": {
+      "channels": [
+        "21_1K21_WZ_V47",
+        "33_1K33_WZ_V86"
+      ],
+      "physical_sensor_count": 2,
+      "fs_values": [
+        1000.0
+      ]
+    }
+  },
+  {
+    "gate": "openLAB2025_fold3_four_disjoint_parts",
+    "passed": true,
+    "mandatory": true,
+    "details": {
+      "train": 4,
+      "cal": 2,
+      "test": 4,
+      "dev": 2
+    }
+  },
+  {
+    "gate": "openLAB2025_fold3_verified_response_panel",
+    "passed": true,
+    "mandatory": true,
+    "details": {
+      "channels": [
+        "21_1K21_WZ_V47",
+        "33_1K33_WZ_V86"
+      ],
+      "physical_sensor_count": 2,
+      "fs_values": [
+        1000.0
+      ]
+    }
+  },
+  {
+    "gate": "full_integrity_hashes_enabled",
+    "passed": true,
+    "mandatory": true,
+    "details": "Full SHA256 input provenance enabled"
+  },
+  {
+    "gate": "Z24_full_clock_and_waveform_integrity",
+    "passed": true,
+    "mandatory": true,
+    "details": {
+      "complete_records": 144,
+      "test_occurrences_per_acquisition": 1
+    }
+  },
+  {
+    "gate": "Route345_full_clock_and_waveform_integrity",
+    "passed": true,
+    "mandatory": true,
+    "details": {
+      "complete_records": 25,
+      "test_occurrences_per_acquisition": 1
+    }
+  },
+  {
+    "gate": "openLAB2025_full_clock_and_waveform_integrity",
+    "passed": true,
+    "mandatory": true,
+    "details": {
+      "complete_records": 12,
+      "test_occurrences_per_acquisition": 1
+    }
+  },
+  {
+    "gate": "Z24_OOF_EACH_ACQUISITION_ONCE",
+    "passed": true,
+    "mandatory": true,
+    "details": {
+      "expected": 144,
+      "observed": 144
+    }
+  },
+  {
+    "gate": "Route345_OOF_EACH_ACQUISITION_ONCE",
+    "passed": true,
+    "mandatory": true,
+    "details": {
+      "expected": 25,
+      "observed": 25
+    }
+  },
+  {
+    "gate": "openLAB2025_OOF_EACH_ACQUISITION_ONCE",
+    "passed": true,
+    "mandatory": true,
+    "details": {
+      "expected": 12,
+      "observed": 12
+    }
+  },
+  {
+    "gate": "crossfit_all_heldout_training_groups_excluded",
+    "passed": true,
+    "mandatory": true,
+    "details": {
+      "rows": 236,
+      "tasks": [
+        "Route345",
+        "Z24",
+        "openLAB2025"
+      ]
+    }
+  }
+]

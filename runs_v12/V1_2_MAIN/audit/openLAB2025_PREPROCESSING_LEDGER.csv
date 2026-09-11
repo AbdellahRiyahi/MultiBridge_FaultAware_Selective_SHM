@@ -1,0 +1,13 @@
+record,source_native,ours,fs,modality,samples
+openLAB2025/2025-05-05 16-13-00 (1),source-native,raw quality first; short-gap repair only; Hann/Welch demeaning; no automatic second bandpass; train-only references,999.9999999999991,velocity,456705
+openLAB2025/2025-05-05 16-41-32 (3),source-native,raw quality first; short-gap repair only; Hann/Welch demeaning; no automatic second bandpass; train-only references,999.9999999999991,velocity,530418
+openLAB2025/2025-05-05 16-57-30 (4),source-native,raw quality first; short-gap repair only; Hann/Welch demeaning; no automatic second bandpass; train-only references,999.9999999999991,velocity,732146
+openLAB2025/2025-05-06 09-58-33 (5),source-native,raw quality first; short-gap repair only; Hann/Welch demeaning; no automatic second bandpass; train-only references,999.9999999999991,velocity,324578
+openLAB2025/2025-05-06 10-07-47 (7),source-native,raw quality first; short-gap repair only; Hann/Welch demeaning; no automatic second bandpass; train-only references,999.9999999999991,velocity,259042
+openLAB2025/2025-05-06 10-14-03 (8),source-native,raw quality first; short-gap repair only; Hann/Welch demeaning; no automatic second bandpass; train-only references,999.9999999999991,velocity,243681
+openLAB2025/2025-05-07 13-03-56 (2),source-native,raw quality first; short-gap repair only; Hann/Welch demeaning; no automatic second bandpass; train-only references,999.9999999999991,velocity,865265
+openLAB2025/2025-05-07 14-00-20 (3),source-native,raw quality first; short-gap repair only; Hann/Welch demeaning; no automatic second bandpass; train-only references,999.9999999999991,velocity,225265
+openLAB2025/2025-05-07 14-04-37 (4),source-native,raw quality first; short-gap repair only; Hann/Welch demeaning; no automatic second bandpass; train-only references,999.9999999999991,velocity,274402
+openLAB2025/2025-05-07 15-38-47 (3),source-native,raw quality first; short-gap repair only; Hann/Welch demeaning; no automatic second bandpass; train-only references,999.9999999999991,velocity,237554
+openLAB2025/2025-05-07 15-43-10 (4),source-native,raw quality first; short-gap repair only; Hann/Welch demeaning; no automatic second bandpass; train-only references,999.9999999999991,velocity,233457
+openLAB2025/2025-05-07 15-47-40 (5),source-native,raw quality first; short-gap repair only; Hann/Welch demeaning; no automatic second bandpass; train-only references,999.9999999999991,velocity,254946

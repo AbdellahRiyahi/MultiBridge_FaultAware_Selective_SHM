@@ -1,0 +1,17 @@
+{
+  "mode": "V1_1_FROZEN_COMPARATORS",
+  "version": "1.1.0",
+  "source": "/home/a.riyahi/ICARC2027_MultiBridge_FaultAware_SHM/runs_v11/V1_1_MAIN/folds/Z24/fold_01",
+  "verified_model_hashes": {
+    "models/Z24/tabular_and_calibration.joblib": "fa76e3eee5c8c2f830e63aebc442633a6b9d3937472ceca33785bd12976b7f76",
+    "models/Z24/StandardNN.pt": "a237b6b3fb713672306cd879fc06f5857f7d6d0de6bcdd62f780f7cac21b2dba",
+    "models/Z24/FaultAware.pt": "019a4993960471eb57931d214024465bc81493bec9072b6fdd49f186b47f4328"
+  },
+  "reference_freeze_sha256": "887e40dadc697e6fb99c552adde9d71bef4421cf7bc7d874abc0dde54b690f7d",
+  "new_probability_and_selection_calibration": true,
+  "test_previously_inspected": true,
+  "control_source": "V1_1_FROZEN_COMPARATORS",
+  "primary_faultaware": "TRAIN_GROUP_OOF_QUALITY",
+  "quality_final_estimator_changed_by_crossfit": false,
+  "primary_new_training": true
+}

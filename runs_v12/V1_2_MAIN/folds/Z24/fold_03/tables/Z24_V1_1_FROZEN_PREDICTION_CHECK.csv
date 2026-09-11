@@ -1,0 +1,7 @@
+model,max_abs_raw_prediction_difference,same_frozen_predictor,within_float_tolerance,old_test_was_seen
+Logistic,1.1102230246251565e-16,True,True,True
+RandomForest,2.220446049250313e-16,True,True,True
+ExtraTrees,1.1102230246251565e-16,True,True,True
+HealthyMahalanobis,1.1102230246251565e-16,True,True,True
+StandardNN,1.1102230246251565e-16,True,True,True
+FaultAware_Control,1.1102230246251565e-16,True,True,True

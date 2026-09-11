@@ -1,0 +1,25 @@
+{
+  "status": "COMPLETE_REFERENCE_ONLY",
+  "n_test_records": 174,
+  "n_test_days": 10,
+  "alarm_fraction_per_record": 0.0,
+  "abstention_fraction": 0.0,
+  "threshold": 33.965980529785156,
+  "calibration_unit": "same_acquisition_score_as_record_evaluation",
+  "record_quantile": 0.95,
+  "record_confidence_interval": {
+    "n_days": 10,
+    "ci95_alarm_low": 0.0,
+    "ci95_alarm_high": 0.0,
+    "interpretation": "conditional day-cluster bootstrap of record-level alarm fraction; no hourly guarantee"
+  },
+  "daily_analysis": {
+    "threshold": 17.099685668945312,
+    "calibration_and_evaluation_unit": "day_median_of_valid_record_scores",
+    "alarm_fraction_per_day": 0.0,
+    "abstention_fraction_per_day": 0.0
+  },
+  "no_damage_detection_claim": true,
+  "no_continuous_hourly_alarm_rate_claim": true,
+  "population_false_alarm_guarantee": false
+}

@@ -1,0 +1,144 @@
+{
+  "signature": "76d5aa8dbc67b01f07bfd911a69d7671fe32a83111c968d9198422c927abdccf",
+  "implementation": "d1bdf0edaca80030db4e397f4be56e2bbd02fba1cb538ebd417b785897ed8505",
+  "config": {
+    "mode": "full",
+    "study_name": "V1_2_MAIN",
+    "resume": true,
+    "variant": "quality_crossfit",
+    "reference_policy": "prefer_compatible",
+    "reference_study_name": "V1_1_MAIN",
+    "reference_run_root": "",
+    "reference_cache_root": "",
+    "trust_own_local_reference_models": true,
+    "reuse_verified_native_cache": true,
+    "frozen_window_seconds": 20.0,
+    "require_reference_protocol": false,
+    "run_route345_aggregation_study": true,
+    "route345_temporal_quantile": 0.9,
+    "quality_diagnostic_top_windows": 3,
+    "quality_alarm_budget": 0.05,
+    "min_quality_cal_groups": 20,
+    "min_calibration_groups_per_class": 5,
+    "crossfit_quality_folds": 3,
+    "reference_quantile": 0.95,
+    "test_was_previously_inspected": true,
+    "project_root": "/home/a.riyahi/ICARC2027_MultiBridge_FaultAware_SHM",
+    "z24_root": "/home/a.riyahi/EvoBridge_SHM/data/raw/z24",
+    "route345_file": "/home/a.riyahi/EvoBridge_SHM/data/raw/route345/Rt345Bridge.h5",
+    "openlab_2025_root": "/home/a.riyahi/EvoBridge_SHM/data/raw/openlab/openlab_damage",
+    "openlab_2024_root": "/home/a.riyahi/EvoBridge_SHM/data/raw/openlab/openlab_reference",
+    "conference": "ICAM3E",
+    "conference_url": "https://icam3e.sciencesconf.org/index",
+    "device_preference": "auto",
+    "cpu_threads": 4,
+    "allow_local_compute": true,
+    "progress_every": 5,
+    "show_figures": true,
+    "seed": 2027,
+    "required_tasks": [
+      "Z24",
+      "Route345",
+      "openLAB2025"
+    ],
+    "run_reference_2024": true,
+    "enable_quality_transfer": true,
+    "enable_minirocket": false,
+    "seed_diagnostics": false,
+    "full_file_hashes": true,
+    "route345_v2_md5": "5c3e2aff20e1984fce15bd18f57f62eb",
+    "overrides_json": "",
+    "z24_reference_channels": [
+      "R1V",
+      "R2L",
+      "R2T",
+      "R2V",
+      "R3V"
+    ],
+    "z24_exclude_installation_state2": true,
+    "route345_axes": [
+      "y",
+      "z"
+    ],
+    "route345_excluded_sensors": [
+      "A14"
+    ],
+    "openlab_excitation_primary": [
+      "random"
+    ],
+    "openlab_vehicle_primary": [
+      "achse_a40"
+    ],
+    "openlab_allow_postload_as_change": false,
+    "min_physical_sensors": 2,
+    "train_channel_coverage": 0.9,
+    "window_seconds": [
+      10.0,
+      20.0,
+      40.0
+    ],
+    "reference_window_seconds": 20.0,
+    "train_overlap": 0.5,
+    "eval_overlap": 0.0,
+    "band_hz": [
+      0.5,
+      25.0
+    ],
+    "psd_bins": 64,
+    "welch_segment_seconds": 4.0,
+    "max_missing_fraction": 0.02,
+    "max_interpolation_gap_seconds": 0.05,
+    "timestamp_relative_tolerance": 0.01,
+    "outer_folds": 3,
+    "split_fractions": [
+      0.55,
+      0.15,
+      0.15,
+      0.15
+    ],
+    "fault_types": [
+      "missing",
+      "freeze",
+      "gain",
+      "clipping",
+      "noise",
+      "drift"
+    ],
+    "heldout_fault": "drift",
+    "fault_severities": [
+      0.25,
+      0.6,
+      1.0
+    ],
+    "train_fault_repeats": 2,
+    "eval_fault_repeats": 1,
+    "max_faulty_physical_sensors": 1,
+    "seeds": [
+      2027,
+      2039,
+      2053
+    ],
+    "max_epochs": 100,
+    "patience": 12,
+    "batch_size": 128,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "latent_dim": 32,
+    "hidden_dim": 64,
+    "dropout": 0.1,
+    "tree_estimators": 400,
+    "quality_tree_estimators": 300,
+    "target_coverages": [
+      0.6,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "primary_coverage": 0.8,
+    "min_calibration_groups_for_affine": 12,
+    "bootstrap_replicates": 1000,
+    "smoke_windows_per_acquisition": 3,
+    "max_feature_store_gb": 8.0,
+    "transfer_rows_per_acquisition": 2000
+  }
+}
