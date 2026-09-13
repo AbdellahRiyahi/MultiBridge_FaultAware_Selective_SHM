@@ -1,0 +1,20 @@
+{
+  "shape": [
+    35000,
+    6
+  ],
+  "fs": 499.99999999999955,
+  "finite_fraction": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "waveform_sha256": "c5ea9e05591e78bd641fd35d32fa72c3369df3305a2219adf1a40dae9d5f9173",
+  "source": "/home/a.riyahi/EvoBridge_SHM/data/raw/openlab/openlab_reference/2024-02-01_2024-10-31_ida_ki_export/01_acceleration_trigger/acc_2024_10_13_T12_57_12.csv",
+  "source_sha": "fda2494de80e5ba57bf4989e602b7f29b728682106c402a8e6aad13e0dee897e",
+  "clock_validated": true,
+  "implementation": "d1bdf0edaca80030db4e397f4be56e2bbd02fba1cb538ebd417b785897ed8505"
+}

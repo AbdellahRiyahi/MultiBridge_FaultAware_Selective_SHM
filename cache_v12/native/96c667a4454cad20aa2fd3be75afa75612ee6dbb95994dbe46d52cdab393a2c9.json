@@ -1,0 +1,16 @@
+{
+  "shape": [
+    530418,
+    2
+  ],
+  "fs": 999.9999999952252,
+  "finite_fraction": [
+    1.0,
+    1.0
+  ],
+  "waveform_sha256": "2d3fd5109e221fbe972f82ff668efce9c7c45999481d0623c8fee299158e9567",
+  "source": "/home/a.riyahi/EvoBridge_SHM/data/raw/openlab/openlab_damage/BAM-IDA-KI-BelVers_Mai2025__06_Anregung_Shaker_Random_Feld_1_Wagen_Achse_A40_Laststufe_Ungeschädigt_2025-05-05 16-41-32 (3).csv",
+  "source_sha": "d2b8fb76543d06deaed03fa2abd655ec05a3525c58f7c3a36aaa843157264e48",
+  "clock_validated": true,
+  "implementation": "d1bdf0edaca80030db4e397f4be56e2bbd02fba1cb538ebd417b785897ed8505"
+}

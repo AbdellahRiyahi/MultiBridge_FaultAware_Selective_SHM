@@ -1,0 +1,19 @@
+{
+  "shape": [
+    65536,
+    5
+  ],
+  "fs": 100.0,
+  "finite_fraction": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "waveform_sha256": "f60c33e3cc8ad263f58fe5635f11c16e0a12c61e5668eb1ac88a13c665f00841",
+  "source": "/home/a.riyahi/EvoBridge_SHM/data/raw/z24/05/avt/05setup09.mat",
+  "source_sha": "0f15fc7b652c6539d32d988e0c28411c1272198f7e45ae0f4791f0a98307e4f4",
+  "clock_validated": false,
+  "implementation": "d1bdf0edaca80030db4e397f4be56e2bbd02fba1cb538ebd417b785897ed8505"
+}

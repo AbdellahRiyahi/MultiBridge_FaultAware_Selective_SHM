@@ -1,0 +1,16 @@
+{
+  "shape": [
+    237554,
+    2
+  ],
+  "fs": 999.9999999952252,
+  "finite_fraction": [
+    1.0,
+    1.0
+  ],
+  "waveform_sha256": "457ce3e2aa1440e2b5dabe3f3a1fc948802bdee30dea92b5d9e90976a292b47c",
+  "source": "/home/a.riyahi/EvoBridge_SHM/data/raw/openlab/openlab_damage/BAM-IDA-KI-BelVers_Mai2025__70_Anregung_Shaker_Random_Feld_2_Wagen_Achse_A40_Laststufe_LitzePos_1_2tw_getrennt_2025-05-07 15-38-47 (3).csv",
+  "source_sha": "27a8baeb2eb7615456e5c50265cc82a4fa7461205923fdf2ebd886b7f213c11e",
+  "clock_validated": true,
+  "implementation": "d1bdf0edaca80030db4e397f4be56e2bbd02fba1cb538ebd417b785897ed8505"
+}
