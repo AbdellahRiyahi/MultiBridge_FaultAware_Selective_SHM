@@ -12,8 +12,11 @@ Research code and retained execution evidence for an acquisition-level study of 
 | Item | Reference |
 | :--- | :--- |
 | Associated conference | [ICAM3E 2026](https://icam3e.sciencesconf.org/), 22–24 October 2026, Béni Mellal, Morocco |
-| Associated manuscript | EPJ Web of Conferences proceedings submission; final bibliographic metadata pending |
-| **Article DOI** | **`00000000` — placeholder; not an assigned DOI** |
+| Publication | [EPJ Web of Conferences **396**, 04002 (2026)](https://doi.org/10.1051/epjconf/202639604002) |
+| Publication type | Original research paper in conference proceedings (ICAM3E 2026) |
+| Published online | 25 November 2026 |
+| Article DOI | [10.1051/epjconf/202639604002](https://doi.org/10.1051/epjconf/202639604002) |
+| Full text | [Publisher PDF](https://www.epj-conferences.org/articles/epjconf/pdf/2026/52/epjconf_icam3e2026_04002.pdf) |
 | Implementation | `1.2.0` — `quality_crossfit` |
 | Retained experiment | `runs_v12/V1_2_MAIN` — `full` mode |
 | Recorded execution status | `COMPLETE_WITH_LIMITATIONS` |
@@ -22,6 +25,8 @@ Research code and retained execution evidence for an acquisition-level study of 
 | Corresponding author | [a.riyahi@enset-media.ac.ma](mailto:a.riyahi@enset-media.ac.ma) |
 
 **Start here:** [Notebook](MultiBridge_FaultAware_Selective_SHM_V1_2.ipynb) · [Evidence summary](runs_v12/V1_2_MAIN/EVIDENCE_SUMMARY.json) · [Main results](runs_v12/V1_2_MAIN/tables/ARTICLE_MAIN_RESULTS.csv) · [Results archive](runs_v12/V1_2_MAIN/ARTICLE_RESULTS.zip) · [Audit archive](runs_v12/V1_2_MAIN/AUDIT_PACKAGE.zip)
+
+**For editors, reviewers and readers:** the source notebook and retained evidence are publicly accessible. Use the evidence snapshot above to identify the research version associated with the paper. Section 1 explains how to inspect saved results without retraining; Section 7 describes fresh execution.
 
 ## Contents
 
@@ -156,7 +161,7 @@ MultiBridge_FaultAware_Selective_SHM/
 | [folds/](runs_v12/V1_2_MAIN/folds/) | Fold-specific splits, calibrators, diagnostics and separately deposited fitted-model files |
 | [REPORT_ARTICLE.html](runs_v12/V1_2_MAIN/REPORT_ARTICLE.html) | Generated execution report; download and open locally to view the HTML report |
 
-The CSV/JSON exports are the numerical reference. Manuscript or presentation figures may use different labels, typography and comparator subsets from the generated execution figures. A rendered plot is not a substitute for its underlying table.
+The CSV/JSON exports are the numerical reference. Published article or presentation figures may use different labels, typography and comparator subsets from the generated execution figures. A rendered plot is not a substitute for its underlying table.
 
 ## 3. Datasets and access
 
@@ -486,29 +491,31 @@ The study does not establish remaining useful life, an optimised maintenance pol
 
 ## 10. Citation
 
-Please cite the associated paper when its final reference is available, and identify the evidence commit when using the retained implementation or numerical exports. Cite the original dataset providers separately when using their measurements.
+Please cite the published paper when using this study. Identify the evidence commit when using the retained implementation or numerical exports, and cite the original dataset providers separately when using their measurements.
 
-**Provisional paper reference**
+**Published paper**
 
-> Riyahi, A., Mestari, M., and Bouihi, B. *Fault-aware selective prediction for bridge monitoring: an acquisition-level study on three bridges*. ICAM3E 2026 contribution; associated EPJ Web of Conferences manuscript. DOI pending.
+> Riyahi, A., Mestari, M., and Bouihi, B. (2026). Fault-aware selective prediction for bridge monitoring: An acquisition-level study on three bridges. *EPJ Web of Conferences*, **396**, 04002. [https://doi.org/10.1051/epjconf/202639604002](https://doi.org/10.1051/epjconf/202639604002)
 
-The following BibTeX is deliberately a **provisional `@misc` entry**, not a claim that volume, pages or an article number have already been assigned. `00000000` is an editing placeholder. Replace it with the complete assigned article DOI and update the bibliographic fields when publication metadata are available; do not cite the placeholder as a real DOI.
+Published online **25 November 2026** in the ICAM3E 2026 proceedings. [Read the publisher PDF](https://www.epj-conferences.org/articles/epjconf/pdf/2026/52/epjconf_icam3e2026_04002.pdf).
 
 ```bibtex
-@misc{riyahi_multibridge_faultaware_2026,
-  author       = {Riyahi, Abdellah and Mestari, Mohammed and Bouihi, Bouchra},
-  title        = {Fault-aware selective prediction for bridge monitoring:
-                  an acquisition-level study on three bridges},
-  year         = {2026},
-  howpublished = {ICAM3E 2026 conference contribution and research repository},
-  url          = {https://github.com/AbdellahRiyahi/MultiBridge_FaultAware_Selective_SHM},
-  doi          = {00000000},
-  note         = {Article DOI pending; evidence run V1_2_MAIN, implementation 1.2.0,
-                  commit bd383f2747bdc97974b8dab168029ed2a475cc0f}
+@article{Riyahi2026FaultAware,
+  author  = {Riyahi, Abdellah and Mestari, Mohammed and Bouihi, Bouchra},
+  title   = {Fault-aware selective prediction for bridge monitoring:
+             An acquisition-level study on three bridges},
+  journal = {EPJ Web of Conferences},
+  volume  = {396},
+  pages   = {04002},
+  year    = {2026},
+  doi     = {10.1051/epjconf/202639604002},
+  url     = {https://doi.org/10.1051/epjconf/202639604002}
 }
 ```
 
-**Evidence snapshot:** [browse the referenced commit](https://github.com/AbdellahRiyahi/MultiBridge_FaultAware_Selective_SHM/tree/bd383f2747bdc97974b8dab168029ed2a475cc0f). A future article DOI and a future software-archive DOI would identify different objects; do not substitute one for the other.
+**Research evidence:** implementation `1.2.0`, variant `quality_crossfit`, run `V1_2_MAIN`, commit [`bd383f2747bdc97974b8dab168029ed2a475cc0f`](https://github.com/AbdellahRiyahi/MultiBridge_FaultAware_Selective_SHM/tree/bd383f2747bdc97974b8dab168029ed2a475cc0f). This pinned snapshot identifies the notebook and retained outputs independently of later documentation edits.
+
+The article DOI identifies the publication. Any separately assigned software-archive DOI would identify a different object; cite the relevant research version as well as the paper.
 
 ## 11. Licensing, acknowledgements and contact
 
